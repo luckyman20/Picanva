@@ -1,0 +1,196 @@
+body {
+  font-family: "Lato", sans-serif;
+  font-weight: 480;
+  padding: 0;
+  line-height: 1.7;
+  color: #777;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-block {
+  display: block;
+}
+
+.d-inline-flex {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+.top-spacing {
+  display: block;
+  height: 45px;
+  background-color: transparent;
+}
+
+/* Scroll Bar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #acacac;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.507);
+  border-radius: 10px;
+}
+
+#mg-0-10 {
+  margin: 0 10px;
+}
+
+#info-block {
+  height: 170px;
+  background: url(images/hero-small.jpg) center center fixed;
+  background-size: 100%;
+}
+
+.brand-logo img {
+  width: 45px;
+  margin: 0 35px;
+}
+
+@media only screen and (max-width: 728px) {
+  .brand-logo img {
+    width: 45px;
+    margin: 0px;
+  }
+}
+
+#info-block div {
+  background: #212121b0;
+  height: 100%;
+}
+
+#home-div {
+  height: 800px;
+  background: linear-gradient(to right bottom, #111a82, #00b0ff);
+  position: relative;
+  clip-path: polygon(0px 0px, 100% 0px, 100% 90vh, 0px 100%);
+  background-position: center top;
+}
+
+#head {
+  letter-spacing: 5px;
+  font-family: "Nunito", sans-serif;
+}
+
+#head-quote {
+  font-family: "Lobster";
+  letter-spacing: 15px;
+  background: white;
+  border: 14px solid greenyellow;
+  padding: 10px;
+}
+
+.composition {
+  position: relative;
+}
+
+.composition__photo {
+  width: 45%;
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+  border-radius: 2px;
+  position: relative;
+  z-index: 10;
+  transition: all 0.2s;
+  outline-offset: 2rem;
+}
+.composition__photo--p1 {
+  left: 3em;
+  top: 1em;
+}
+.composition__photo--p2 {
+  right: 0em;
+  top: 3rem;
+}
+.composition__photo--p3 {
+  left: 8em;
+  top: 0em;
+}
+.composition__photo:hover {
+  outline: 1rem solid #55c57a;
+  transform: scale(0.9) translateY(-0.5rem);
+  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  z-index: 20;
+}
+.composition:hover .composition__photo:not(:hover) {
+  transform: scale(0.95);
+}
+
+@media only screen and (max-width: 600px) {
+  .composition__photo--p1 {
+    left: 3em;
+    top: 5rem;
+  }
+  .composition__photo--p2 {
+    right: 0em;
+    top: 7rem;
+  }
+  .composition__photo--p3 {
+    left: 8em;
+    top: 4rem;
+  }
+  #home-div {
+    height: 850px;
+    background: linear-gradient(to right bottom, #111a82, #00b0ff);
+    position: relative;
+    clip-path: polygon(0px 0px, 100% 0px, 100% 95vh, 0px 100%);
+    background-position: center top;
+  }
+  /* #work-sec {
+    margin-top: 60%;
+  } */
+}
+
+/* #work-div {
+  padding: 0;
+  margin: 5% 0;
+  height: 450px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(85, 40, 250, 0.8),
+      rgba(68, 236, 90, 0.8)
+    ),
+    url(images/nat-4.jpg);
+  background-size: cover;
+  position: relative;
+  transform: skewY(-4.75deg);
+  background-position: center top;
+}
+
+.question {
+  background-color: rgb(101, 255, 204);
+  padding: 2%;
+  color: white;
+  position: absolute;
+  top: 0;
+  width: 20em;
+}
+
+.text-banner {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
+  font-family: "Nunito";
+}
+
+#work-methods i {
+  margin: 0 10px;
+}
+
+blockquote {
+  padding: 7px;
+} */
