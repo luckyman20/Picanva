@@ -78,7 +78,7 @@ body {
   height: 800px;
   background: linear-gradient(to right bottom, #111a82, #00b0ff);
   position: relative;
-  clip-path: polygon(0px 0px, 100% 0px, 100% 90vh, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 0px 100%);
   background-position: center top;
 }
 
@@ -88,11 +88,11 @@ body {
 }
 
 #head-quote {
-  font-family: "Lobster";
+  font-family: "Luckiest Guy";
   letter-spacing: 15px;
   background: white;
   border: 14px solid greenyellow;
-  padding: 10px;
+  padding: 15px;
 }
 
 .composition {
@@ -147,12 +147,16 @@ body {
     height: 850px;
     background: linear-gradient(to right bottom, #111a82, #00b0ff);
     position: relative;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 95vh, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
     background-position: center top;
   }
   /* #work-sec {
     margin-top: 60%;
   } */
+}
+
+.carousel {
+  height: 500px !important;
 }
 
 /* #work-div {
