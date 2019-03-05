@@ -10,27 +10,16 @@ body {
   font-family: "Comfortaa";
 }
 
+.head-font {
+  font-family: "Abril Fatface";
+}
+
+.righteous {
+  font-family: "Righteous";
+}
+
 .mx-auto {
   margin: 0 auto;
-}
-
-.d-flex {
-  display: flex;
-}
-
-.d-block {
-  display: block;
-}
-
-.d-inline-flex {
-  display: inline-flex;
-  flex-wrap: wrap;
-}
-
-.top-spacing {
-  display: block;
-  height: 45px;
-  background-color: transparent;
 }
 
 /* Scroll Bar */
@@ -61,16 +50,13 @@ body {
   background-size: 100%;
 }
 
-.brand-logo img {
-  width: 45px;
-  margin: 0 35px;
+.brand-logo {
+  font-family: "Righteous";
+  color: black !important;
 }
 
 @media only screen and (max-width: 728px) {
-  .brand-logo img {
-    width: 45px;
-    margin: 0px;
-  }
+  /* Medium Devices */
 }
 
 nav ul a {
@@ -83,10 +69,11 @@ nav ul a {
 }
 
 #home-div {
-  height: 800px;
-  background: #00aeff85;
+  height: 750px;
+  background: url(images/header-bg.jpg);
+  background-size: cover;
   position: relative;
-  clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
   background-position: center top;
 }
 
@@ -97,12 +84,15 @@ nav ul a {
 
 #head-quote {
   font-family: "Abril Fatface";
-  letter-spacing: 15px;
-  background: #dcffe1;
+  background: #dcffe1 url(images/hero.jpg);
+  background-size: cover;
+  height: 400px;
+  width: 325px;
+  margin-left: 10%;
   border: 14px solid greenyellow;
   padding: 15px;
 }
-
+/* 
 .composition {
   position: relative;
 }
@@ -137,10 +127,10 @@ nav ul a {
 }
 .composition:hover .composition__photo:not(:hover) {
   transform: scale(0.95);
-}
+} */
 
 @media only screen and (max-width: 600px) {
-  .composition__photo--p1 {
+  /* .composition__photo--p1 {
     left: 2em;
     top: 3rem;
   }
@@ -161,8 +151,8 @@ nav ul a {
     position: relative;
     z-index: 10;
     transition: all 0.2s;
-    outline-offset: 0.5rem;
-  }
+    outline-offset: 0.5rem; 
+  }*/
 
   #home-div {
     height: 850px;
