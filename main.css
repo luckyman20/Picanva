@@ -6,6 +6,10 @@ body {
   color: #777;
 }
 
+.comfortaa {
+  font-family: "Comfortaa";
+}
+
 .mx-auto {
   margin: 0 auto;
 }
@@ -92,7 +96,7 @@ nav ul a {
 }
 
 #head-quote {
-  font-family: "Luckiest Guy";
+  font-family: "Abril Fatface";
   letter-spacing: 15px;
   background: #dcffe1;
   border: 14px solid greenyellow;
