@@ -70,11 +70,17 @@ nav ul a {
 
 #home-div {
   height: 750px;
-  background: url(images/header-bg.jpg);
+  background: url(images/interior1.jpg);
   background-size: cover;
   position: relative;
   clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
   background-position: center top;
+}
+
+#home-div .row {
+  position: absolute;
+  top: 18%;
+  margin-left: 18%;
 }
 
 #head {
@@ -86,10 +92,10 @@ nav ul a {
   font-family: "Abril Fatface";
   background: #dcffe1 url(images/hero.jpg);
   background-size: cover;
-  height: 400px;
-  width: 325px;
+  height: 300px;
+  width: 225px;
   margin-left: 10%;
-  border: 14px solid greenyellow;
+  border: 10px solid #424242;
   padding: 15px;
 }
 /* 
