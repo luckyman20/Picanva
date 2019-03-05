@@ -6,13 +6,19 @@ $(document).ready(function() {
   });
 });
 
-function scrollToElement(obj) {
-  $("html, body").animate(
-    {
-      scrollTop: obj.offset().top
-    },
-    2000
-  );
+window.onscroll = function() {
+  myFunction();
+};
+function myFunction() {
+  var navTag = document.getElementById("nav-tag");
+  if (
+    document.body.scrollTop > 100 ||
+    document.documentElement.scrollTop > 100
+  ) {
+    navTag.className = "grey lighten-5";
+  } else {
+    navTag.className = "transparent z-depth-0";
+  }
 }
 
 $("a[href*=#]:not([href=#])").click(function() {

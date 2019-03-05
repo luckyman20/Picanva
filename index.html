@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>P I C A N V A</title>
-    <meta name="theme-color" content="#651fff" />
+    <meta name="theme-color" content="#00aeff85" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <link
@@ -34,41 +34,40 @@
   </head>
   <body>
     <!-- Navigation -->
-    <div class="navbar-fixed" style="height:0px;">
-      <nav class="deep-purple accent-3">
+    <div id="nav-container" class="navbar-fixed" style="height:0px;">
+      <nav id="nav-tag" class="transparent z-depth-0">
         <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo" style="font-family: 'Nunito';"
-            ><img src="images/logo-white.png" alt="brand logo" /><span
-              class="hide-on-med-and-down"
-              style="border-right: 1px solid white;"
-              >P I C A N V A&nbsp&nbsp
-            </span></a
+          <a
+            href="index.html"
+            class="brand-logo center"
+            style="font-family: 'Lobster'; color:black;"
+            >P I C A N V A&nbsp&nbsp</a
           >
           <a href="#" data-target="mobileNav" class="sidenav-trigger"
             ><i class="material-icons">menu</i></a
           >
-          <ul class="left hide-on-med-and-down ubuntu" style="margin-left:21%">
-            <li>
+          <ul style="font-size: 14px;" class="hide-on-med-and-down ubuntu">
+            <li class="left">
               <a href="#home-div"
                 ><i style="font-size:20px;" class="fas fa-home left"></i>Home</a
               >
             </li>
-            <li>
+            <li class="left">
               <a href="#inspire"
                 ><i style="font-size:20px;" class="far fa-lightbulb left"></i
                 >Get Inspired</a
               >
             </li>
-            <li>
-              <a href="#work"
+            <li class="left">
+              <a href="#work-div"
                 ><i style="font-size:20px;" class="fas fa-user-tie left"></i
                 >Work</a
               >
             </li>
-            <li>
+            <li class="right">
               <a href="#team"><i class="material-icons left">people</i>Team</a>
             </li>
-            <li>
+            <li class="right">
               <a href="#contact"
                 ><i class="material-icons left">contact_mail</i>Contact</a
               >
@@ -97,7 +96,7 @@
         >
       </li>
       <li class="sidenav-close">
-        <a href="#work"
+        <a href="#work-div"
           ><i style="font-size:20px;" class="fas fa-user-tie left"></i>Work</a
         >
       </li>

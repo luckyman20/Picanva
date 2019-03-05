@@ -69,6 +69,10 @@ body {
   }
 }
 
+nav ul a {
+  color: black;
+}
+
 #info-block div {
   background: #212121b0;
   height: 100%;
@@ -76,7 +80,7 @@ body {
 
 #home-div {
   height: 800px;
-  background: linear-gradient(to right bottom, #111a82, #00b0ff);
+  background: #00aeff85;
   position: relative;
   clip-path: polygon(0px 0px, 100% 0px, 100% 93%, 0px 100%);
   background-position: center top;
@@ -90,7 +94,7 @@ body {
 #head-quote {
   font-family: "Luckiest Guy";
   letter-spacing: 15px;
-  background: white;
+  background: #dcffe1;
   border: 14px solid greenyellow;
   padding: 15px;
 }
@@ -100,30 +104,31 @@ body {
 }
 
 .composition__photo {
-  width: 45%;
+  width: 42%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
-  border-radius: 2px;
+  border-radius: 3px;
+  border: 0.5rem solid white;
   position: relative;
   z-index: 10;
   transition: all 0.2s;
-  outline-offset: 2rem;
+  outline-offset: 0.5rem;
 }
 .composition__photo--p1 {
   left: 3em;
   top: 1em;
 }
 .composition__photo--p2 {
-  right: 0em;
-  top: 3rem;
+  right: 3em;
+  top: 8rem;
 }
 .composition__photo--p3 {
-  left: 8em;
-  top: 0em;
+  left: 1em;
+  top: 3em;
 }
 .composition__photo:hover {
-  outline: 1rem solid #55c57a;
+  outline: 0.5rem solid #55c57a;
   transform: scale(0.9) translateY(-0.5rem);
-  box-shadow: 0 2.5rem 4rem rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.5);
   z-index: 20;
 }
 .composition:hover .composition__photo:not(:hover) {
@@ -132,20 +137,32 @@ body {
 
 @media only screen and (max-width: 600px) {
   .composition__photo--p1 {
-    left: 3em;
-    top: 5rem;
+    left: 2em;
+    top: 3rem;
   }
   .composition__photo--p2 {
     right: 0em;
-    top: 7rem;
+    top: 8rem;
   }
   .composition__photo--p3 {
-    left: 8em;
-    top: 4rem;
+    left: 4em;
+    top: 5rem;
   }
+
+  .composition__photo {
+    width: 45%;
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
+    border-radius: 3px;
+    border: 0.5rem solid white;
+    position: relative;
+    z-index: 10;
+    transition: all 0.2s;
+    outline-offset: 0.5rem;
+  }
+
   #home-div {
     height: 850px;
-    background: linear-gradient(to right bottom, #111a82, #00b0ff);
+    background: linear-gradient(to right bottom, #00b0ff, #b3e5fc) !important;
     position: relative;
     clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
     background-position: center top;
@@ -159,7 +176,7 @@ body {
   height: 500px !important;
 }
 
-/* #work-div {
+#work-div {
   padding: 0;
   margin: 5% 0;
   height: 450px;
@@ -197,4 +214,4 @@ body {
 
 blockquote {
   padding: 7px;
-} */
+}
