@@ -22,6 +22,10 @@ body {
   margin: 0 auto;
 }
 
+#mg-0-10 {
+  margin: 0 10px;
+}
+
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
@@ -40,10 +44,39 @@ body {
   border-radius: 10px;
 }
 
-#mg-0-10 {
-  margin: 0 10px;
+/* Small Devices */
+@media only screen and (max-width: 600px) {
+  /* Properties */
+  #home-div .row {
+    position: absolute;
+    top: 18%;
+  }
+
+  #home-div {
+    height: 750px;
+    background: url(images/interior1.jpg);
+    background-size: cover;
+    /* clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%); */
+    background-position: center top;
+  }
+
+  #head-quote {
+    background: #dcffe1 url(images/hero.jpg);
+    background-size: cover;
+    height: 15%;
+    width: 200px;
+    margin: 0 auto;
+    border: 10px solid #424242;
+    padding: 15px;
+  }
 }
 
+/* Medium Devices */
+@media only screen and (max-width: 728px) {
+  /* Properties */
+}
+
+/* Navigation Pane */
 #info-block {
   height: 170px;
   background: url(images/hero-small.jpg) center center fixed;
@@ -55,10 +88,6 @@ body {
   color: black !important;
 }
 
-@media only screen and (max-width: 728px) {
-  /* Medium Devices */
-}
-
 nav ul a {
   color: black;
 }
@@ -68,19 +97,20 @@ nav ul a {
   height: 100%;
 }
 
+/* Header */
 #home-div {
   height: 750px;
-  background: url(images/interior1.jpg);
+  background: url(images/header-bg.jpg);
   background-size: cover;
   position: relative;
-  clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
+  /* clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%); */
   background-position: center top;
 }
 
 #home-div .row {
   position: absolute;
   top: 18%;
-  margin-left: 18%;
+  /* margin-left: 18%; */
 }
 
 #head-quote {
@@ -94,69 +124,28 @@ nav ul a {
   padding: 15px;
 }
 
-@media only screen and (max-width: 600px) {
-  #home-div .row {
-    position: absolute;
-    top: 10%;
-    margin: 2%;
-  }
-
-  #home-div {
-    height: 750px;
-    background: url(images/interior1.jpg);
-    background-size: cover;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
-    background-position: center top;
-  }
-
-  #head-quote {
-    font-family: "Abril Fatface";
-    background: #dcffe1 url(images/hero.jpg);
-    background-size: cover;
-    height: 250px;
-    width: 200px;
-    margin: 0 auto;
-    border: 10px solid #424242;
-    padding: 15px;
-  }
-}
-
+/* Work Section */
 #work-div {
   padding: 0;
   margin: 5% 0;
   height: 450px;
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(85, 40, 250, 0.8),
-      rgba(68, 236, 90, 0.8)
-    ),
-    url(images/nat-4.jpg);
   background-size: cover;
   position: relative;
-  transform: skewY(-4.75deg);
   background-position: center top;
 }
 
-.question {
-  background-color: rgb(101, 255, 204);
-  padding: 2%;
-  color: white;
-  position: absolute;
-  top: 0;
-  width: 20em;
+/* News Section */
+#new-section {
+  margin: 0 !important;
 }
 
-.text-banner {
-  font-size: 3.5rem;
-  font-weight: 300;
-  line-height: 1.2;
-  font-family: "Nunito";
+#news-section img {
+  margin: 0;
+  padding: 10px;
 }
 
-#work-methods i {
-  margin: 0 10px;
-}
-
-blockquote {
-  padding: 7px;
+/* Footer Section */
+#footer {
+  height: 50px;
+  margin: 0;
 }
