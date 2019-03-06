@@ -56,7 +56,7 @@ body {
     height: 750px;
     background: url(images/interior1.jpg);
     background-size: cover;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
+    clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%);
     background-position: center top;
   }
 
@@ -103,7 +103,7 @@ nav ul a {
   background: url(images/header-bg.jpg);
   background-size: cover;
   position: relative;
-  clip-path: polygon(0px 0px, 100% 0px, 100% 95%, 0px 100%);
+  clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%);
   background-position: center top;
 }
 
