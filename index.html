@@ -171,12 +171,23 @@
     </div>
     
     <!-- Features -->
-    <div class="hide-on-med-and-down">
+    <!-- For large devices -->
+    <div class="show-on-large">
       <div class="features row">
-        <div id="f-one" class="col l3 head-font center-align"><h3>Wall Art</h3></div>
-        <div id="f-two" class="col l3 head-font center-align"><h3>Canvas Painting</h3></div>
-        <div id="f-three" class="col l3 head-font center-align"><h3>Sculptures</h3></div>
-        <div id="f-four" class="col l3 head-font center-align"><h3>Illustrations</h3></div>
+        <div id="f-one" class="col l3 righteous center-align"><h3>Wall Art</h3></div>
+        <div id="f-two" class="col l3 righteous center-align"><h3>Canvas Painting</h3></div>
+        <div id="f-three" class="col l3 righteous center-align"><h3>Sculptures</h3></div>
+        <div id="f-four" class="col l3 righteous center-align"><h3>Illustrations</h3></div>
+      </div>
+    </div>
+
+    <!-- For medium devices -->
+    <div class="show-on-medium hide-on-large-only">
+      <div class="features row">
+        <div id="f-one" class="col l3 righteous center-align"><h3>Wall Art</h3></div>
+        <div id="f-two" class="col l3 righteous center-align"><h3>Canvas Painting</h3></div>
+        <div id="f-three" class="col l3 righteous center-align"><h3>Sculptures</h3></div>
+        <div id="f-four" class="col l3 righteous center-align"><h3>Illustrations</h3></div>
       </div>
     </div>
 
@@ -221,11 +232,20 @@
 
     <!-- Footer -->
     <div id="footer" class="row valign-wrapper black">
-      <div class="container">
-        <div class="col s12 m4 l4"></div>
-        <div class="col s12 m4 l4"></div>
-        <div class="col s12 m4 l4"></div>
-      </div>
+        <div class="col s12 m3 l3 center-align">
+          <div class="section"></div>
+          <div class="valign-wrapper row">
+            <img class="col s6 m6 l6 responsive-img" src="images/instagram-logo-small.png" alt="" style="width:5em; margin-left:4em;">
+            <img class="col s6 m6 l6 responsive-img" src="images/instagram-logo.png" alt="Instagram" style="width:50%; margin-left:0;">
+          </div>
+          <!-- Remove comments and add widget frame link to add widget -->
+          <!-- <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+          <iframe src="//lightwidget.com/widgets/<WIDGET-ID>.html" scrolling="no" allowtransparency="true" class="lightwidget-widget card" style="width:80%;border:0;overflow:hidden;"></iframe> -->
+
+        </div>
+        <div class="col s12 m3 l3 center-align"><h6>Contact Us</h6></div>
+        <div class="col s12 m3 l3 center-align"><h6>Quick Links</h6></div>
+        <div class="col s12 m3 l3 center-align"><h6>Recent Blogs</h6></div>
     </div>
 
     <!-- JS -->
