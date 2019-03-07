@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 480;
   padding: 0;
-  background-color: #eeeeee;
+  /* background-color: #eeeeee; */
   line-height: 1.7;
   color: #777;
 }
@@ -156,17 +156,18 @@ nav ul a {
 }
 
 .process {
-  width: 90px;
+  width: 50px;
 }
 
 /* News Section */
 #new-section {
   margin: 0 !important;
+  background-color: #b6b6b6;
 }
 
 #news-section img {
   margin: 0;
-  padding: 10px;
+  padding: 30px;
 }
 
 /* Footer Section */

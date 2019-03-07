@@ -15,7 +15,7 @@ function myFunction() {
     document.body.scrollTop > 100 ||
     document.documentElement.scrollTop > 100
   ) {
-    navTag.className = "grey lighten-5";
+    navTag.className = "white";
   } else {
     navTag.className = "transparent z-depth-0";
   }
