@@ -39,22 +39,3 @@ $("a[href*=#]:not([href=#])").click(function() {
     }
   }
 });
-
-// var headerHeight = $("div#header").height();
-
-// // Attach the click event
-// $('a[href*=#]').bind("click", function(e) {
-//     e.preventDefault();
-
-//     var target = $(this).attr("href"); //Get the target
-//     var scrollToPosition = $(target).offset().top - headerHeight;
-
-//     $('html').animate({ 'scrollTop': scrollToPosition }, 600, function(){
-//         window.location.hash = "" + target;
-//         // This hash change will jump the page to the top of the div with the same id
-//         // so we need to force the page to back to the end of the animation
-//         $('html').animate({ 'scrollTop': scrollToPosition }, 0);
-//     });
-
-//     $('body').append("called");
-// });

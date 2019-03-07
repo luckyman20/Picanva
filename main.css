@@ -2,7 +2,6 @@ body {
   font-family: "Lato", sans-serif;
   font-weight: 480;
   padding: 0;
-  /* background-color: #eeeeee; */
   line-height: 1.7;
   color: #777;
 }
@@ -51,51 +50,7 @@ body {
     position: absolute;
     top: 18%;
   }
-
-  /* #home-div {
-    height: 750px;
-    background: url(images/interior1.jpg);
-    background-size: cover;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%);
-    background-position: center top;
-  }
-
-  #head-quote {
-    background: #dcffe1 url(images/hero.jpg);
-    background-size: cover;
-    height: 15%;
-    width: 200px;
-    margin: 0 auto;
-    border: 10px solid #424242;
-    padding: 15px;
-  } */
 }
-
-/* Medium Devices */
-/* @media only screen and (max-width: 768px) {
-  #home-div .row {
-    position: absolute;
-    top: 18%;
-  }
-
-  #home-div {
-    height: 750px;
-    background: url(images/interior1.jpg);
-    background-size: cover;
-    clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%);
-    background-position: center top;
-  }
-
-  #head-quote {
-    background: #dcffe1 url(images/hero.jpg);
-    background-size: cover;
-    height: 15%;
-    width: 200px;
-    margin: 0 auto;
-    border: 10px solid #424242;
-    padding: 15px;
-  }
-} */
 
 /* Navigation Pane */
 #info-block {
@@ -124,14 +79,12 @@ nav ul a {
   background: url(images/header-bg.jpg);
   background-size: cover;
   position: relative;
-  /* clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%); */
   background-position: center top;
 }
 
 #home-div .row {
   position: absolute;
   top: 18%;
-  /* margin-left: 18%; */
 }
 
 #head-quote {
@@ -148,7 +101,6 @@ nav ul a {
 /* Work Section */
 #work-div {
   padding: 0;
-  /* height: 500px; */
   padding: 4% 0;
   background-size: cover;
   position: relative;
