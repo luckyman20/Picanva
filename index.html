@@ -172,7 +172,7 @@
     
     <!-- Features -->
     <!-- For large devices -->
-    <div class="show-on-large">
+    <div class="hide-on-med-and-down">
       <div class="features row">
         <div id="f-one" class="col l3 righteous center-align"><h3>Wall Art</h3></div>
         <div id="f-two" class="col l3 righteous center-align"><h3>Canvas Painting</h3></div>
@@ -182,27 +182,34 @@
     </div>
 
     <!-- For medium devices -->
-    <div class="show-on-medium hide-on-large-only">
+    <div class="show-on-medium hide-on-large-only hide-on-small-only">
       <div class="features row">
-        <div id="f-one" class="col l3 righteous center-align"><h3>Wall Art</h3></div>
-        <div id="f-two" class="col l3 righteous center-align"><h3>Canvas Painting</h3></div>
-        <div id="f-three" class="col l3 righteous center-align"><h3>Sculptures</h3></div>
-        <div id="f-four" class="col l3 righteous center-align"><h3>Illustrations</h3></div>
+        <div id="f-one" class="col m6 righteous center-align"><h3>Wall Art</h3></div>
+        <div id="f-two" class="col m6 righteous center-align"><h3>Canvas Painting</h3></div>
+        <div id="f-three" class="col m6 righteous center-align"><h3>Sculptures</h3></div>
+          <div id="f-four" class="col m6 righteous center-align"><h3>Illustrations</h3></div>
       </div>
     </div>
+
+    <!-- For small devices -->
+    <div class="show-on-small hide-on-med-and-up">
+        <div class="features row">
+          <div id="f-one" class="col s12 righteous center-align"><h3>Wall Art</h3></div>
+          <div id="f-two" class="col s12 righteous center-align"><h3>Canvas Painting</h3></div>
+          <div id="f-three" class="col s12 righteous center-align"><h3>Sculptures</h3></div>
+          <div id="f-four" class="col s12 righteous center-align"><h3>Illustrations</h3></div>
+        </div>
+      </div>
 
     <!-- News Section -->
     <!-- Small and Medium screen View -->
     <div class="section"><div class="divider"></div></div>
     <div id="news-section" class="row lighten-3 hide-on-large-only">
-      <div class="col s12 m12 l6 center-align">
+      <div class="col s12 m12 center-align">
         <img class="responsive-img" src="images/thehindu.png" alt="client 1" />
       </div>
-
-      <div class="col s12 m12">
-        <div class="section" style="margin-bottom:2%;"></div>
-      </div>
-      <div class="col s12 m12 l6 center-align">
+      
+      <div class="col s12 m12 center-align">
         <img
           class="responsive-img"
           width="400px"
