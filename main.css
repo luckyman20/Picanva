@@ -124,7 +124,7 @@ nav ul a {
   background: url(images/header-bg.jpg);
   background-size: cover;
   position: relative;
-  clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%);
+  /* clip-path: polygon(0px 0px, 100% 0px, 100% 97%, 0px 100%); */
   background-position: center top;
 }
 
@@ -149,7 +149,7 @@ nav ul a {
 #work-div {
   padding: 0;
   /* height: 500px; */
-  padding: 5% 0;
+  padding: 4% 0;
   background-size: cover;
   position: relative;
   background-position: center top;
@@ -157,6 +157,52 @@ nav ul a {
 
 .process {
   width: 50px;
+}
+
+/* Features */
+.features {
+  height: 35em;
+}
+
+.features h3 {
+  position: relative;
+  top: 5em;
+  color: white;
+  text-decoration: underline;
+}
+
+.features div {
+  padding: 0 2%;
+}
+
+#f-one {
+  background-image: linear-gradient(to right bottom, #31297ac4, #31297ac4),
+    url(images/features/wallart.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+#f-two {
+  background-image: linear-gradient(to right bottom, #363636c7, #363636c7),
+    url(images/features/canvasart.jpg);
+  background-size: cover;
+  height: 100%;
+}
+
+#f-three {
+  background-image: linear-gradient(to right bottom, #5e8038c0, #5e8038c0),
+    url(images/features/sculpture.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+#f-four {
+  background-image: linear-gradient(to right bottom, #a55e35c2, #a55e35c2),
+    url(images/features/illustration.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
 
 /* News Section */
