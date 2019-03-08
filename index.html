@@ -1,262 +1,74 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>P I C A N V A</title>
-    <meta name="theme-color" content="#ffffff" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
-    />
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
-      integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-      crossorigin="anonymous"
-    />
-    <link
-      href="https://fonts.googleapis.com/css?family=Comfortaa|Abril+Fatface|Righteous|Nunito|Pacifico|Permanent+Marker"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- Navigation -->
-    <div id="nav-container" class="navbar-fixed" style="height:0px;">
-      <nav id="nav-tag" class="transparent z-depth-0">
-        <div class="nav-wrapper">
-          <a href="index.html" class="brand-logo center"
-            >P I C A N V A&nbsp&nbsp</a
-          >
-          <a href="#" data-target="mobileNav" class="sidenav-trigger"
-            ><i class="material-icons black-text">menu</i></a
-          >
-          <ul style="font-size: 14px;" class="hide-on-med-and-down comfortaa">
-            <li>
-              <a href="#home-div"
-                >Home</a
-              >
-            </li>
-            <li>
-              <a href="#inspire"
-                ></i
-                >Get Inspired</a
-              >
-            </li>
-            <li>
-              <a href="#work-div"
-                ></i
-                >Work</a
-              >
-            </li>
-            <li class="right">
-              <a href="#team">Team</a>
-            </li>
-            <li class="right">
-              <a href="#contact"
-                >Contact</a
-              >
-            </li>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>P I C A N V A</title>
+  <meta name="theme-color" content="#fff" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+  <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans|Bree+Serif|Roboto+Slab|Comfortaa|Abril+Fatface|Righteous"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Large screens only -->
+  <div class="hide-on-med-and-down">
+    <header id="main-header">
+      <div class="head-inner frame-padding">
+        <div class="main-nav">
+          <ul class="main-menu list-style-none">
+            <li><a href="#about">About</a></li>
+            <li><a href="#how">How?</a></li>
           </ul>
         </div>
-      </nav>
-    </div>
-    <ul class="sidenav comfortaa white-text line-height" id="mobileNav">
-      <li id="info-block">
-        <div class="row valign-wrapper">
-          <img src="images/favicon.png" width="70px" id="mg-0-10" alt="Logo" />
-          <h5 class="righteous">P I C A N V A</h5>
-        </div>
-      </li>
-      <div class="section"></div>
-      <li class="sidenav-close">
-        <a href="#home-div">Home</a>
-      </li>
-      <li class="sidenav-close">
-        <a href="#work-div">How it works?</a>
-      </li>
-      <li class="sidenav-close">
-        <a href="#inspire">Get Inspired</a>
-      </li>
-      <li class="sidenav-close">
-        <a href="#team">Our Team</a>
-      </li>
-      <li class="sidenav-close">
-        <a href="#contact">Contact us</a>
-      </li>
-    </ul>
-    <!-- Main -->
-    <div id="home-div">
-      <!-- For Large Screens -->
-      <div style="margin-left: 18%;" class="row hide-on-med-and-down">
-        <div class="col s12 m6 l6">
-          <h2 class="head-font" style="color: #424242;">
-            ART FOR YOUR <br />
-            WORKSPACE.
-          </h2>
-          <br />
-          <h5 style="color: #424242;" class="righteous">
-            We help you create beautiful art pieces <br />
-            for your space using Technology.
+        <a href="/" class="logo">
+          <!-- <img class="responsive-img" src="https://www.citrineestates.com/img/logo/logo-dark-gold.svg" alt="Logo"> -->
+          <h5 class="logo center-align righteous" style="margin: 0;"><span style="letter-spacing: 10px;">PICANVA</span>
           </h5>
-        </div>
-        <div class="col s12 m6 l6">
-          <div id="head-quote" class="z-depth-5"></div>
+        </a>
+        <div class="secondary-nav">
+          <ul class="secondary-menu list-style-none">
+            <li>Contact</li>
+            <li>Blog</li>
+          </ul>
         </div>
       </div>
-      <!-- For small screens -->
-      <div class="row hide-on-large-only">
-        <div class="col s12 m6 l6">
-          <div id="head-quote" class="z-depth-5"></div>
-        </div>
-        <div class="col s12 m6 l6">
-          <h2 class="head-font" style="color: #424242;">
-            ART FOR YOUR <br />
-            WORKSPACE.
-          </h2>
-          <h5 style="color: #424242;" class="righteous">
-            We help you create beautiful art pieces <br />
-            for your space using Technology.
-          </h5>
+    </header>
+
+    <!-- Social Links -->
+    <div id="page_share" style="opacity: 1;">
+      <div class="social-links">
+        <div class="inner">
+          <a href="#" target="_blank" aria-label="Follow on Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" target="_blank" aria-label="Follow on LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" target="_blank" aria-label="Follow on Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" target="_blank" aria-label="Follow on Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- What we do -->
-    <div id="work-div">
-      <div id="bg"></div>
-      <div class="section righteous center-align">
-        <h3>
-          <span style="border-bottom:1px solid #777; padding: 0 2%;"
-            >How it works?</span
-          >
-        </h3>
-      </div>
-      <div class="section"></div>
-      <div class="row" style="width:85%;">
-        <div class="col s12 m4 l4 comfortaa center-align">
-          <img class="responsive-img process" src="images/discuss.png" alt="" />
-          <h5>Discuss</h5>
-          <p>Choose designs from over 50 artworks</p>
-        </div>
-        <div class="col s12 m4 l4 comfortaa center-align">
-          <img
-            class="responsive-img process"
-            src="images/customise.svg"
-            alt=""
-          />
-          <h5>Customize</h5>
-          <p>
-            Choose your size. Choose your colour scheme.
-          </p>
-        </div>
-        <div class="col s12 m4 l4 comfortaa center-align">
-          <img class="responsive-img process" src="images/connect.png" alt="" />
-          <h5>Connect</h5>
-          <p>We help you to connect to a local artist.</p>
-        </div>
-      </div>
-    </div>
-    
-    <!-- Features -->
-    <!-- For large devices -->
-    <div class="hide-on-med-and-down">
-      <div class="features row">
-        <div id="f-one" class="col l3 righteous center-align"><h3>Wall Art</h3></div>
-        <div id="f-two" class="col l3 righteous center-align"><h3>Canvas Painting</h3></div>
-        <div id="f-three" class="col l3 righteous center-align"><h3>Sculptures</h3></div>
-        <div id="f-four" class="col l3 righteous center-align"><h3>Illustrations</h3></div>
-      </div>
-    </div>
+  <!-- JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="main.js"></script>
+</body>
 
-    <!-- For medium devices -->
-    <div class="show-on-medium hide-on-large-only hide-on-small-only">
-      <div class="features row">
-        <div id="f-one" class="col m6 righteous center-align"><h3>Wall Art</h3></div>
-        <div id="f-two" class="col m6 righteous center-align"><h3>Canvas Painting</h3></div>
-        <div id="f-three" class="col m6 righteous center-align"><h3>Sculptures</h3></div>
-          <div id="f-four" class="col m6 righteous center-align"><h3>Illustrations</h3></div>
-      </div>
-    </div>
-
-    <!-- For small devices -->
-    <div class="show-on-small hide-on-med-and-up">
-        <div class="features row">
-          <div id="f-one" class="col s12 righteous center-align"><h3>Wall Art</h3></div>
-          <div id="f-two" class="col s12 righteous center-align"><h3>Canvas Painting</h3></div>
-          <div id="f-three" class="col s12 righteous center-align"><h3>Sculptures</h3></div>
-          <div id="f-four" class="col s12 righteous center-align"><h3>Illustrations</h3></div>
-        </div>
-      </div>
-
-    <!-- News Section -->
-    <!-- Small and Medium screen View -->
-    <div class="section"><div class="divider"></div></div>
-    <div id="news-section" class="row lighten-3 hide-on-large-only">
-      <div class="col s12 m12 center-align">
-        <img class="responsive-img" src="images/thehindu.png" alt="client 1" />
-      </div>
-      
-      <div class="col s12 m12 center-align">
-        <img
-          class="responsive-img"
-          width="400px"
-          src="images/dh.png"
-          alt="client 2"
-        />
-      </div>
-    </div>
-
-    <!-- Large screen View -->
-    <div
-      id="news-section"
-      class="row valign-wrapper lighten-3 hide-on-med-and-down container"
-    >
-      <div class="col s12 m12 center-align">
-        <img class="responsive-img" src="images/thehindu.png" alt="client 1" />
-      </div>
-      <div class="col s12 m12 center-align">
-        <img
-          class="responsive-img"
-          width="400px"
-          src="images/dh.png"
-          alt="client 2"
-        />
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <div id="footer" class="row valign-wrapper black">
-        <div class="col s12 m3 l3 center-align">
-          <div class="section"></div>
-          <div class="valign-wrapper row">
-            <img class="col s6 m6 l6 responsive-img" src="images/instagram-logo-small.png" alt="" style="width:5em; margin-left:4em;">
-            <img class="col s6 m6 l6 responsive-img" src="images/instagram-logo.png" alt="Instagram" style="width:50%; margin-left:0;">
-          </div>
-          <!-- Remove comments and add widget frame link to add widget -->
-          <!-- <script src="http://cdn.lightwidget.com/widgets/lightwidget.js"></script>
-          <iframe src="//lightwidget.com/widgets/<WIDGET-ID>.html" scrolling="no" allowtransparency="true" class="lightwidget-widget card" style="width:80%;border:0;overflow:hidden;"></iframe> -->
-
-        </div>
-        <div class="col s12 m3 l3 center-align"><h6>Contact Us</h6></div>
-        <div class="col s12 m3 l3 center-align"><h6>Quick Links</h6></div>
-        <div class="col s12 m3 l3 center-align"><h6>Recent Blogs</h6></div>
-    </div>
-
-    <!-- JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="main.js"></script>
-  </body>
 </html>

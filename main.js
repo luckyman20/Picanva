@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(document).ready(function () {
   $(".sidenav").sidenav();
   $(".dropdown-trigger").dropdown();
   $(".carousel").carousel({
@@ -6,7 +6,7 @@ $(document).ready(function() {
   });
 });
 
-window.onscroll = function() {
+window.onscroll = function () {
   myFunction();
 };
 function myFunction() {
@@ -20,22 +20,3 @@ function myFunction() {
     navTag.className = "transparent z-depth-0";
   }
 }
-
-$("a[href*=#]:not([href=#])").click(function() {
-  if (
-    location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") ||
-    location.hostname == this.hostname
-  ) {
-    var target = $(this.hash);
-    target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
-    if (target.length) {
-      $("html,body").animate(
-        {
-          scrollTop: target.offset().top
-        },
-        1000
-      );
-      return false;
-    }
-  }
-});

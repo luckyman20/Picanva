@@ -1,29 +1,20 @@
+html{
+  font-family: sans-serif;
+}
+
 body {
-  font-family: "Lato", sans-serif;
-  font-weight: 480;
-  padding: 0;
-  line-height: 1.7;
-  color: #777;
+  margin: 0;
+  background-color: #fff;
+  color: #1e1b19;
+  font-size: 16px;
+  font-family: Helvetica,Arial,sans-serif;
+  line-height: 29px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
-.comfortaa {
-  font-family: "Comfortaa";
-}
-
-.head-font {
-  font-family: "Abril Fatface";
-}
-
-.righteous {
-  font-family: "Righteous";
-}
-
-.mx-auto {
-  margin: 0 auto;
-}
-
-#mg-0-10 {
-  margin: 0 10px;
+.righteous{
+  font-family: 'Righteous';
 }
 
 /* Scroll Bar */
@@ -44,132 +35,180 @@ body {
   border-radius: 10px;
 }
 
-/* Small Devices */
-@media only screen and (max-width: 600px) {
-  #home-div div.row {
-    position: absolute;
-    top: 18%;
-  }
+li, p{
+  color: #1e1b19;
+  font-size: 15px;
+  letter-spacing: normal;
+  line-height: 1.6em;
 }
 
-/* Navigation Pane */
-#info-block {
-  height: 170px;
-  background: url(images/hero-small.jpg) center center fixed;
-  background-size: 100%;
+h6 {
+  color: #4b3929;
+  font-size: 11.5px;
+  letter-spacing: .1875em;
+  line-height: normal;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-family: Open Sans,sans-serif;
+  font-style: normal;
+  font-weight: 700;
 }
 
-.brand-logo {
-  font-family: "Righteous";
-  color: black !important;
+.list-style-none{
+  list-style: none;
 }
 
-nav ul a {
-  color: black;
+#main-header{
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #fff;
+  z-index: 99;
 }
 
-#info-block div {
-  background: #212121b0;
+#main-header .head-inner{
   height: 100%;
-}
-
-/* Header */
-#home-div {
-  height: 750px;
-  background: url(images/header-bg.jpg);
-  background-size: cover;
   position: relative;
-  background-position: center top;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -webkit-box-align: center;
 }
 
-#home-div .row {
-  position: absolute;
-  top: 18%;
+.frame-padding{
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
-#head-quote {
-  font-family: "Abril Fatface";
-  background: #dcffe1 url(images/hero.jpg);
-  background-size: cover;
-  height: 300px;
-  width: 225px;
-  margin-left: 10%;
-  border: 10px solid #424242;
-  padding: 15px;
-}
-
-/* Work Section */
-#work-div {
+ul.main-menu{
+  display: flex;
+  margin: 0px 0 0 0px;
   padding: 0;
-  padding: 4% 0;
-  background-size: cover;
+}
+
+ul.main-menu a {
+  color: #1e1b19;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 5px;
   position: relative;
-  background-position: center top;
+  text-decoration: none;
 }
 
-.process {
-  width: 50px;
+ul.main-menu a {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 600;
 }
 
-/* Features */
-.features {
-  height: 35em;
+ul.main-menu li{
+  list-style: none;
+  margin: 0 5px;
 }
 
-.features h3 {
+#main-header .logo{
+  height: 23px;
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  transform: translate(50%,-50%);
+  color: black;
+  transition: height .2s,width .2s;
+  width: 250px;
+  z-index: 2;
+  justify-content: space-between;
+}
+
+.secondary-nav{
+  display: flex;
+  align-items: center;
+  -webkit-box-align-items: center;
+}
+
+ul.secondary-menu{
+  margin: -5px 0 0;
+  padding: 0;
+  transition: opacity .2s,visibility .2s;
+  display: flex;
+}
+
+ul.secondary-menu li {
+  list-style: none;
   position: relative;
-  top: 5em;
-  color: white;
-  text-decoration: underline;
-}
-
-.features div {
-  padding: 0 2%;
-}
-
-#f-one {
-  background-image: linear-gradient(to right bottom, #31297ac4, #31297ac4),
-    url(images/features/wallart.jpg);
-  background-size: cover;
-  height: 100%;
-}
-
-#f-two {
-  background-image: linear-gradient(to right bottom, #363636c7, #363636c7),
-    url(images/features/canvasart.jpg);
-  background-size: cover;
-  height: 100%;
-}
-
-#f-three {
-  background-image: linear-gradient(to right bottom, #5e8038c0, #5e8038c0),
-    url(images/features/sculpture.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-}
-
-#f-four {
-  background-image: linear-gradient(to right bottom, #a55e35c2, #a55e35c2),
-    url(images/features/illustration.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 100%;
-}
-
-/* News Section */
-#new-section {
-  margin: 0 !important;
-  background-color: #b6b6b6;
-}
-
-#news-section img {
   margin: 0;
-  padding: 30px;
+  padding: 0;
+  display: inline-block;
+  font-size: 12px;
+  letter-spacing: .188em;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
-/* Footer Section */
-#footer {
-  /* height: 50px; */
-  margin: 0;
+ul.secondary-menu a {
+  font-family: Open Sans,sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  color: #1e1b19;
+    
 }
+
+#page_share {
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  left: 0;
+  position: fixed;
+  top: 50%;
+  transform: translateY(-50%);
+  visibility: visible;
+  width: 40px;
+  height: 132px;
+  z-index: 7;
+}
+
+#page_share .social-links {
+  position: relative;
+  height: 100%;
+}
+
+#page_share .social-links .inner {
+  -ms-flex-direction: column;
+  -webkit-box-direction: normal;
+  -webkit-box-orient: vertical;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  margin: 0;
+  width: 40px;
+  display: inline-flex;
+}
+
+.social-links a {
+  -webkit-transition: color .2s ease-in;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 2px;
+  padding: 10px;
+  transition: color .2s ease-in;
+  text-decoration: none;
+  background: transparent;
+  color: rgba(75, 57, 41, 0.76);
+}
+
+/* #page_share .social-label {
+  -ms-transform: translate(-50%,-50%) rotate(-90deg);
+  -webkit-transform: translate(-50%,-50%) rotate(-90deg);
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%,-50%) rotate(-90deg);
+  opacity: 1;
+  visibility: visible;
+  transition: opacity .2s,visibility .2s;
+  margin-bottom: 0;
+  cursor: pointer;
+} */
