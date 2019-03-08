@@ -2,7 +2,8 @@ $(document).ready(function () {
   $(".sidenav").sidenav();
   $(".dropdown-trigger").dropdown();
   $(".carousel").carousel({
-    numVisible: 5
+    fullWidth: true,
+    indicators: true
   });
 });
 
