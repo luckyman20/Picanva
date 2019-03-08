@@ -96,7 +96,7 @@ ul.main-menu a {
   padding: 10px 5px;
   position: relative;
   text-decoration: none;
-  letter-spacing: .188em;
+  /* letter-spacing: .188em; */
 }
 
 ul.main-menu a {
@@ -139,7 +139,7 @@ ul.secondary-menu li {
   padding: 0;
   display: inline-block;
   font-size: 16px;
-  letter-spacing: .188em;
+  /* letter-spacing: .188em; */
   padding: 10px 20px;
   text-decoration: none;
   /* text-transform: uppercase; */
