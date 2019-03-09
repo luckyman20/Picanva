@@ -1,23 +1,23 @@
 $(document).ready(function () {
-  $(".sidenav").sidenav();
+  $('.sidenav').sidenav();
   $(".dropdown-trigger").dropdown();
-  $(".carousel").carousel({
+  $(".carousel.carousel-slider").carousel({
     fullWidth: true,
     indicators: true
   });
 });
 
-window.onscroll = function () {
-  myFunction();
-};
-function myFunction() {
-  var navTag = document.getElementById("nav-tag");
-  if (
-    document.body.scrollTop > 100 ||
-    document.documentElement.scrollTop > 100
-  ) {
-    navTag.className = "white";
-  } else {
-    navTag.className = "transparent z-depth-0";
-  }
-}
+// window.onscroll = function () {
+//   myFunction();
+// };
+// function myFunction() {
+//   var navTag = document.getElementById("nav-tag");
+//   if (
+//     document.body.scrollTop > 100 ||
+//     document.documentElement.scrollTop > 100
+//   ) {
+//     navTag.className = "white";
+//   } else {
+//     navTag.className = "transparent z-depth-0";
+//   }
+// }

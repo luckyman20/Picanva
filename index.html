@@ -21,65 +21,92 @@
 </head>
 
 <body>
-  <!-- Large screens only -->
-  <div class="hide-on-med-and-down">
-    <header id="main-header">
-      <div class="head-inner frame-padding">
-        <div class="main-nav">
-          <ul class="main-menu list-style-none">
-            <li><a href="#about">About</a></li>
-            <li><a href="#how">How?</a></li>
-          </ul>
-        </div>
-        <div class="logo jos-sans">
-          <a href="/">PICANVA</a>
-        </div>
-        <div class="secondary-nav">
-          <ul class="secondary-menu list-style-none">
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Blog</a></li>
-          </ul>
-        </div>
+  <!-- Navigation -->
+  <div class="navbar-fixed">
+    <nav class="frame-padding white black-text">
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo center jos-sans">PICANVA</a>
+        <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons black-text">menu</i></a>
+        <ul class="hide-on-med-and-down">
+          <li><a href="#">About</a></li>
+          <li><a href="#">How?</a></li>
+        </ul>
+        <ul class="hide-on-med-and-down right">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Blog</a></li>
+        </ul>
       </div>
-    </header>
-
-    <!-- Social Links -->
-    <div id="page_share" style="opacity: 1;">
-      <div class="social-links">
-        <div class="inner">
-          <a href="#" target="_blank" aria-label="Follow on Facebook">
-            <i class="fab fa-facebook-f"></i>
-          </a>
-          <a href="#" target="_blank" aria-label="Follow on LinkedIn">
-            <i class="fab fa-linkedin-in"></i>
-          </a>
-          <a href="#" target="_blank" aria-label="Follow on Twitter">
-            <i class="fab fa-twitter"></i>
-          </a>
-          <a href="#" target="_blank" aria-label="Follow on Instagram">
-            <i class="fab fa-instagram"></i>
-          </a>
+    </nav>
+  </div>
+  <ul id="slide-out" class="sidenav">
+    <li>
+      <div class="user-view">
+        <div class="background">
+          <img width="100%" src="images/hero.jpg">
         </div>
+        <a href="#user"><img class="circle" src="images/nat-8.jpg"></a>
+        <a href="#name"><span class="white-text name">John Doe</span></a>
+        <a href="#email"><span class="white-text email">jdandturk@gmail.com</span></a>
+      </div>
+    </li>
+    <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+    <li><a href="#!">Second Link</a></li>
+    <li>
+      <div class="divider"></div>
+    </li>
+    <li><a class="subheader">Subheader</a></li>
+    <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+  </ul>
+
+  <!-- Social Links -->
+  <div class="hide-on-med-and-down" id="page_share" style="opacity: 1;">
+    <div class="social-links">
+      <div class="inner">
+        <a href="#" target="_blank" aria-label="Follow on Facebook">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Follow on LinkedIn">
+          <i class="fab fa-linkedin-in"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Follow on Twitter">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" target="_blank" aria-label="Follow on Instagram">
+          <i class="fab fa-instagram"></i>
+        </a>
       </div>
     </div>
+  </div>
 
-    <!-- Main -->
-    <div id="main">
-      <div id="page-banner" class="frame-padding">
-        <div class="banner-inner">
-          <div class="slider-container">
-            <div class="carousel carousel-slider">
-              <a class="carousel-item" href="#one!"><img src="images/nat-6.jpg"></a>
-              <a class="carousel-item" href="#two!"><img src="images/nat-8.jpg"></a>
-              <a class="carousel-item" href="#two!"><img src="images/nat-4.jpg"></a>
-              <a class="carousel-item" href="#two!"><img src="images/nat-5.jpg"></a>
+  <!-- Main -->
+  <div id="main">
+    <div id="page-banner" class="frame-padding">
+      <div class="banner-inner">
+        <div class="slider-container">
+          <div class="carousel carousel-slider center">
+            <div class="carousel-fixed-item center">
+              <a class="btn waves-effect white grey-text darken-text-2">button</a>
+            </div>
+            <div class="carousel-item red white-text" href="#one!">
+              <h2>First Panel</h2>
+              <p class="white-text">This is your first panel</p>
+            </div>
+            <div class="carousel-item amber white-text" href="#two!">
+              <h2>Second Panel</h2>
+              <p class="white-text">This is your second panel</p>
+            </div>
+            <div class="carousel-item green white-text" href="#three!">
+              <h2>Third Panel</h2>
+              <p class="white-text">This is your third panel</p>
+            </div>
+            <div class="carousel-item blue white-text" href="#four!">
+              <h2>Fourth Panel</h2>
+              <p class="white-text">This is your fourth panel</p>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
   </div>
 
 
