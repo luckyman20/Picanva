@@ -166,4 +166,25 @@ nav ul a {
   position: absolute;
   text-align: center;
   width: 100%;
+  border-radius: 5px;
+}
+
+#slide-one{
+  background-image: url(images/nat-8.jpg);
+  background-size: cover;
+}
+
+#slide-two{
+  background-image: url(images/nat-5.jpg);
+  background-size: cover;
+}
+
+#slide-three{
+  background-image: url(images/nat-7.jpg);
+  background-size: cover;
+}
+
+#slide-four{
+  background-image: url(images/nat-6.jpg);
+  background-size: cover;
 }
