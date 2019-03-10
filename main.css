@@ -200,13 +200,67 @@ nav ul a {
 }
 
 /* About */
-
 #about p{
   margin: 35px;
   width: 70%;
   word-wrap: wrap;
 }
 
+@media only screen and (max-width: 768px){
+  #about p{
+    margin: 35px;
+    width: 80%;
+  }
+}
+
 #about h6, h5{
   margin-left: 10px;
+}
+
+/* services */
+.features {
+  height: 35em;
+}
+
+.features h3 {
+  position: relative;
+  top: 5em;
+  color: white;
+  text-decoration: underline;
+}
+
+.features div {
+  padding: 0 2%;
+}
+
+#f-one {
+  background-image: linear-gradient(to right bottom, #31297ac4, #31297ac4),
+    url(images/features/wallart.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+#f-two {
+  background-image: linear-gradient(to right bottom, #363636c7, #363636c7),
+    url(images/features/illustration2.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+#f-three {
+  background-image: linear-gradient(to right bottom, #5e8038c0, #5e8038c0),
+    url(images/features/sculpture.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+}
+
+#f-four {
+  background-image: linear-gradient(to right bottom, #a55e35c2, #a55e35c2),
+    url(images/features/illustration.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
 }
