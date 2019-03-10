@@ -73,7 +73,7 @@ h6 {
 nav{
   height: 70px;
   line-height: 70px;
-  border-bottom: 1px solid #777;
+  border-bottom: 1px solid rgba(119, 119, 119, 0.521);
 }
 
 nav .brand-logo{
@@ -93,7 +93,10 @@ nav .sidenav-trigger, nav .sidenav-trigger i{
 nav ul a {
   color: #1e1b19;
   font-family: 'Bree Serif';
-  /* letter-spacing: .188em; */
+}
+
+.hvr-underline-from-left::before{
+  background: #1e1b19af;
 }
 
 #page_share {
@@ -172,19 +175,23 @@ nav ul a {
 #slide-one{
   background-image: url(images/nat-8.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 #slide-two{
   background-image: url(images/nat-5.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 #slide-three{
   background-image: url(images/nat-7.jpg);
   background-size: cover;
+  background-position: center center;
 }
 
 #slide-four{
   background-image: url(images/nat-6.jpg);
   background-size: cover;
+  background-position: center center;
 }
