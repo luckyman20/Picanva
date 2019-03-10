@@ -169,29 +169,28 @@ nav ul a {
   position: absolute;
   text-align: center;
   width: 100%;
-  border-radius: 5px;
 }
 
 #slide-one{
-  background-image: url(images/nat-8.jpg);
+  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img1.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-two{
-  background-image: url(images/nat-5.jpg);
+  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img2.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-three{
-  background-image: url(images/nat-7.jpg);
+  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img3.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-four{
-  background-image: url(images/nat-6.jpg);
+  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img4.png);
   background-size: cover;
   background-position: center center;
 }
