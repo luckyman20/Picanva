@@ -17,6 +17,10 @@ body {
   font-family: 'Josefin Sans';
 }
 
+.bree{
+  font-family: 'Bree Serif';
+}
+
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
@@ -193,4 +197,16 @@ nav ul a {
   background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img4.png);
   background-size: cover;
   background-position: center center;
+}
+
+/* About */
+
+#about p{
+  margin: 35px;
+  width: 70%;
+  word-wrap: wrap;
+}
+
+#about h6, h5{
+  margin-left: 10px;
 }
