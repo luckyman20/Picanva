@@ -301,5 +301,11 @@ nav ul a {
 }
 
 #footer h6{
-  color: white;
+  color: black;
+  margin: 20px 0;
+}
+
+.f-social-links i{
+  color: black;
+  margin: 10px 0;
 }
