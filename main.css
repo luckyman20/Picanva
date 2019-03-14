@@ -21,6 +21,10 @@ body {
   font-family: 'Bree Serif';
 }
 
+.mx-auto{
+  margin: 0 auto;
+}
+
 .mg-10{
   margin: 1%;
   margin-left: 1% !important;
@@ -30,6 +34,17 @@ body {
   .mg-10{
     margin: 2%;
     margin-left: auto !important;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .mg-10{
+    margin: 1%;
+    margin-left: 1% !important;
+  }
+
+  .row .col.m6 {
+    width: 48%;
   }
 }
 
@@ -246,7 +261,7 @@ nav ul a {
 }
 
 #f-one {
-  background-image: linear-gradient(to right bottom, #222222c7, #222222c7),
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
     url(images/features/wallart.jpg);
   background-size: cover;
   background-position: center center;
@@ -254,15 +269,15 @@ nav ul a {
 }
 
 #f-two {
-  background-image: linear-gradient(to right bottom, #222222c7, #222222c7),
-    url(images/features/illustration2.jpg);
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
+    url(images/features/canvasart.jpg);
   background-size: cover;
   background-position: center center;
   height: 100%;
 }
 
 #f-three {
-  background-image: linear-gradient(to right bottom, #222222c7, #222222c7),
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
     url(images/features/sculpture.jpg);
   background-size: cover;
   background-position: center center;
@@ -270,8 +285,8 @@ nav ul a {
 }
 
 #f-four {
-  background-image: linear-gradient(to right bottom, #222222c7, #222222c7),
-    url(images/features/illustration.jpg);
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
+    url(images/features/illustration.png);
   background-size: cover;
   background-position: center center;
   height: 100%;
