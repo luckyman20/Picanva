@@ -249,7 +249,10 @@ nav ul a {
   position: relative;
   top: 4.5em;
   color: white;
-  text-decoration: underline;
+}
+
+.features span{
+  text-decoration: overline;
 }
 
 .features div {
