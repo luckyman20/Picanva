@@ -26,6 +26,13 @@ body {
   margin-left: 1% !important;
 }
 
+@media only screen and (max-width: 600px){
+  .mg-10{
+    margin: 2%;
+    margin-left: auto !important;
+  }
+}
+
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
@@ -102,10 +109,6 @@ nav .sidenav-trigger, nav .sidenav-trigger i{
 nav ul a {
   color: #1e1b19;
   font-family: 'Bree Serif';
-}
-
-.hvr-underline-from-left::before{
-  background: #1e1b19af;
 }
 
 #page_share {
