@@ -177,13 +177,30 @@
 
   </div>
 
-  <div class="section">
-    <div class="divider"></div>
+  <!-- News Section -->
+  <!-- Small and Medium screen View -->
+  <div id="news-section" class="row lighten-3 hide-on-large-only">
+    <div class="col s12 m12 center-align">
+      <img class="responsive-img" src="images/thehindu.png" alt="client 1" />
+    </div>
+
+    <div class="col s12 m12 center-align">
+      <img class="responsive-img" width="400px" src="images/dh.png" alt="client 2" />
+    </div>
   </div>
 
+  <!-- Large screen View -->
+  <div id="news-section" class="row valign-wrapper lighten-3 hide-on-med-and-down container">
+    <div class="col s12 m12 center-align">
+      <img class="responsive-img" src="images/thehindu.png" alt="client 1" />
+    </div>
+    <div class="col s12 m12 center-align">
+      <img class="responsive-img" width="400px" src="images/dh.png" alt="client 2" />
+    </div>
+  </div>
   <!-- Footer -->
   <div id="footer" class="valign-wrapper">
-    <div class="row" style="width: 90%; margin-top:3%;">
+    <div class="row" style="width: 90%;">
       <div class="col s12 m12 l3 center-align">
         <a href="#">
           <h6>Home</h6>
@@ -197,20 +214,37 @@
         <a href="#">
           <h6>Contact</h6>
         </a>
+        <div class="divider hide-on-large-only"></div>
       </div>
-      <div class="col s12 m12 l3 center-align">
+      <div class="col s12 m12 l3 center-align container">
         <a href="#">
           <h6>How it works?</h6>
         </a>
         <a href="#">
           <h6>Blog</h6>
         </a>
+        <div class="divider hide-on-large-only"></div>
       </div>
       <div class="col s12 m12 l3 center-align">
-        <h6>Subscribe</h6>
+        <h6 style="margin-bottom:0;">Never miss an update</h6>
+        <form id="contactFrom" class="col s12">
+          <div class="input-field col s12 m12 l12">
+            <input id="email" type="email" class="validate bree" />
+            <label class="bree" for="email">Email</label>
+          </div>
+          <div class="center-align">
+            <button class="btn waves-effect black waves-light bree" type="submit" name="action">
+              Subscribe
+              <i class="material-icons right">send</i>
+            </button>
+          </div>
+        </form>
       </div>
       <div class="col s12 m12 l3 center-align">
-        <div class="f-social-links hide-on-med-and-down">
+        <div class="section">
+          <div class="divider hide-on-large-only"></div>
+        </div>
+        <div class="f-social-links hide-on-med-and-down" style="margin: 15px;">
           <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
             <i class="fab fa-facebook-f"></i>
           </a>
@@ -227,10 +261,33 @@
             <i class="fab fa-twitter"></i>
           </a>
         </div>
+        <div class="f-social-links hide-on-large-only">
+          <div class="row" style="margin-bottom:0px;">
+            <div class="col s3 m3">
+              <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </div>
+            <div class="col s3 m3">
+              <a href="https://www.instagram.com/picanva/" target="_blank" aria-label="Follow on Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </div>
+            <div class="col s3 m3">
+              <a href="https://www.linkedin.com/company/picanva" target="_blank" aria-label="Follow on LinkedIn">
+                <i class="fab fa-linkedin-in"></i>
+              </a>
+            </div>
+            <div class="col s3 m3">
+              <a href="https://twitter.com/picanvaorg" target="_blank" aria-label="Follow on Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
-
   <!-- JS -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <script src="main.js"></script>

@@ -236,7 +236,7 @@ nav ul a {
   }
 }
 
-#about h6, h5{
+#about h6, #about h5{
   margin-left: 10px;
 }
 
@@ -295,6 +295,17 @@ nav ul a {
   height: 100%;
 }
 
+/* News Section */
+#new-section {
+  margin: 0 !important;
+}
+
+#news-section img {
+  margin: 0;
+  padding: 30px 40px;
+}
+
+/* Footer */
 #footer {
   /* height: 50px; */
   margin: 0;
