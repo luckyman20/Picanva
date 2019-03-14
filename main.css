@@ -40,7 +40,6 @@ body {
 @media only screen and (max-width: 768px){
   .mg-10{
     margin: 1%;
-    margin-left: 1% !important;
   }
 
   .row .col.m6 {
