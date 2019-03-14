@@ -21,6 +21,11 @@ body {
   font-family: 'Bree Serif';
 }
 
+.mg-10{
+  margin: 1%;
+  margin-left: 1% !important;
+}
+
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
@@ -231,6 +236,10 @@ nav ul a {
 
 .features div {
   padding: 0 2%;
+}
+
+.row .col.l3 {
+  width: 23%;
 }
 
 #f-one {
