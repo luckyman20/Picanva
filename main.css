@@ -234,7 +234,7 @@ nav ul a {
 }
 
 #f-one {
-  background-image: linear-gradient(to right bottom, #31297ac4, #31297ac4),
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
     url(images/features/wallart.jpg);
   background-size: cover;
   background-position: center center;
@@ -242,15 +242,15 @@ nav ul a {
 }
 
 #f-two {
-  background-image: linear-gradient(to right bottom, #363636c7, #363636c7),
-    url(images/features/illustration2.jpg);
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
+    url(images/features/canvasart.jpg);
   background-size: cover;
   background-position: center center;
   height: 100%;
 }
 
 #f-three {
-  background-image: linear-gradient(to right bottom, #5e8038c0, #5e8038c0),
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
     url(images/features/sculpture.jpg);
   background-size: cover;
   background-position: center center;
@@ -258,8 +258,8 @@ nav ul a {
 }
 
 #f-four {
-  background-image: linear-gradient(to right bottom, #a55e35c2, #a55e35c2),
-    url(images/features/illustration.jpg);
+  background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
+    url(images/features/illustration.png);
   background-size: cover;
   background-position: center center;
   height: 100%;
