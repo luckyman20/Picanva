@@ -31,6 +31,14 @@ body {
   margin-left: 1% !important;
 }
 
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
 @media only screen and (max-width: 600px){
   .mg-10{
     margin: 2%;
