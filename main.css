@@ -1,4 +1,4 @@
-html{
+html {
   font-family: sans-serif;
 }
 
@@ -7,40 +7,40 @@ body {
   background-color: #fff;
   color: #1e1b19;
   font-size: 16px;
-  font-family: Helvetica,Arial,sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   line-height: 29px;
   overflow-x: hidden;
   overflow-y: scroll;
   scroll-behavior: smooth;
 }
 
-.jos-sans{
+.jos-sans {
   font-family: 'Josefin Sans';
 }
 
-.bree{
+.bree {
   font-family: 'Bree Serif';
 }
 
-.mx-auto{
+.mx-auto {
   margin: 0 auto;
 }
 
-.mg-10{
+.mg-10 {
   margin: 1%;
   margin-left: 1% !important;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    appearance: none;
-    margin: 0; 
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
 }
 
-@media only screen and (max-width: 600px){
-  .mg-10{
+@media only screen and (max-width: 600px) {
+  .mg-10 {
     margin: 2%;
     margin-left: auto !important;
   }
@@ -64,7 +64,8 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 10px;
 }
 
-li, p{
+li,
+p {
   color: #1e1b19;
   font-size: 15px;
   letter-spacing: normal;
@@ -77,41 +78,43 @@ h6 {
   line-height: normal;
   margin-bottom: 10px;
   text-transform: uppercase;
-  font-family: Open Sans,sans-serif;
+  font-family: Open Sans, sans-serif;
   font-style: normal;
   font-weight: 700;
 }
 
 
-.frame-padding{
+.frame-padding {
   padding-left: 40px;
   padding-right: 40px;
 }
 
-@media only screen and (max-width: 768px){
-  .frame-padding{
+@media only screen and (max-width: 768px) {
+  .frame-padding {
     padding-left: 0;
     padding-right: 0;
   }
-  .mg-10{
+
+  .mg-10 {
     margin: 1%;
   }
+
   .features .col.m6 {
     width: 48%;
   }
 }
 
-.navbar-fixed{
+.navbar-fixed {
   height: 70px;
 }
 
-nav{
+nav {
   height: 70px;
   line-height: 70px;
   border-bottom: 1px solid rgba(202, 202, 202, 0.521);
 }
 
-nav .brand-logo{
+nav .brand-logo {
   color: black;
   border: 2px solid #000;
   padding: 0 10px;
@@ -121,7 +124,8 @@ nav .brand-logo{
   font-size: 2rem;
 }
 
-nav .sidenav-trigger, nav .sidenav-trigger i{
+nav .sidenav-trigger,
+nav .sidenav-trigger i {
   height: 70px;
   line-height: 70px;
 }
@@ -173,24 +177,24 @@ nav ul a {
   color: rgba(75, 57, 41, 0.76);
 }
 
-#main{
-  padding-top:70px;
+#main {
+  padding-top: 70px;
   margin-top: -70px;
   overflow: hidden;
 }
 
-#page-banner{
+#page-banner {
   margin-top: -70px;
   padding-top: 80px;
   height: 760px;
   padding-bottom: 40px;
 }
 
-.carousel{
+.carousel {
   height: 100% !important;
 }
 
-.banner-inner{
+.banner-inner {
   width: 100%;
   position: relative;
   height: 100%;
@@ -203,45 +207,46 @@ nav ul a {
   width: 100%;
 }
 
-#slide-one{
+#slide-one {
   background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img1.png);
   background-size: cover;
   background-position: center center;
 }
 
-#slide-two{
+#slide-two {
   background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img2.png);
   background-size: cover;
   background-position: center center;
 }
 
-#slide-three{
+#slide-three {
   background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img3.png);
   background-size: cover;
   background-position: center center;
 }
 
-#slide-four{
+#slide-four {
   background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img4.png);
   background-size: cover;
   background-position: center center;
 }
 
 /* About */
-#about p{
+#about p {
   margin: 35px;
   width: 70%;
   word-wrap: wrap;
 }
 
-@media only screen and (max-width: 768px){
-  #about p{
+@media only screen and (max-width: 768px) {
+  #about p {
     margin: 35px;
     width: 80%;
   }
 }
 
-#about h6, #about h5{
+#about h6,
+#about h5 {
   margin-left: 10px;
 }
 
@@ -256,7 +261,7 @@ nav ul a {
   color: white;
 }
 
-.features span{
+.features span {
   text-decoration: overline;
 }
 
@@ -301,11 +306,11 @@ nav ul a {
 }
 
 /* Blog section */
-#blog h6{
+#blog h6 {
   margin-left: 10px;
 }
 
-#blog img{
+#blog img {
   height: 250px;
 }
 
@@ -325,12 +330,12 @@ nav ul a {
   margin: 0;
 }
 
-#footer h6{
-  color: black;
+#footer h6 {
+  color: white;
   margin: 20px 0;
 }
 
-.f-social-links i{
-  color: black;
+.f-social-links i {
+  color: white;
   margin: 10px 0;
 }
