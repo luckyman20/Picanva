@@ -38,16 +38,6 @@ body {
   }
 }
 
-@media only screen and (max-width: 768px){
-  .mg-10{
-    margin: 1%;
-  }
-
-  .row .col.m6 {
-    width: 48%;
-  }
-}
-
 /* Scroll Bar */
 /* width */
 ::-webkit-scrollbar {
@@ -94,6 +84,12 @@ h6 {
   .frame-padding{
     padding-left: 0;
     padding-right: 0;
+  }
+  .mg-10{
+    margin: 1%;
+  }
+  .features .col.m6 {
+    width: 48%;
   }
 }
 
@@ -294,6 +290,15 @@ nav ul a {
   background-size: cover;
   background-position: center center;
   height: 100%;
+}
+
+/* Blog section */
+#blog h6{
+  margin-left: 10px;
+}
+
+#blog img{
+  height: 250px;
 }
 
 /* News Section */
