@@ -324,8 +324,10 @@ nav ul a {
   margin: 2% 0;
 }
 
-#blog h6 {
-  margin-left: 10px;
+.blog-info {
+  margin: 0;
+  color: #777;
+  width: 100%;
 }
 
 #blog img {
@@ -339,12 +341,15 @@ nav ul a {
 }
 
 #blog-text {
-  margin: 2% 6%;
+  margin: 2% 4%;
   font-family: 'Josefin Sans';
 }
 
-#blog-text h5 {
-  margin: 0;
+.blog-title {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 20px;
 }
 
 @media only screen and (max-width: 768px) {
