@@ -103,10 +103,6 @@ h6 {
     width: 48%;
   }
 
-  #page-banner h1 {
-    position: relative;
-    top: 35%;
-  }
 }
 
 .navbar-fixed {
@@ -197,7 +193,12 @@ nav ul a {
 
 #page-banner h1 {
   position: relative;
-  top: 40%;
+  top: 35%;
+}
+
+#page-banner h4 {
+  position: relative;
+  top: 30%;
 }
 
 .carousel {
