@@ -102,6 +102,11 @@ h6 {
   .features .col.m6 {
     width: 48%;
   }
+
+  #page-banner h1 {
+    position: relative;
+    top: 35%;
+  }
 }
 
 .navbar-fixed {
@@ -188,6 +193,11 @@ nav ul a {
   padding-top: 80px;
   height: 760px;
   padding-bottom: 40px;
+}
+
+#page-banner h1 {
+  position: relative;
+  top: 40%;
 }
 
 .carousel {
