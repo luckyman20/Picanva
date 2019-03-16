@@ -27,8 +27,8 @@ body {
 }
 
 .mg-10 {
-  margin: 1%;
-  margin-left: 1% !important;
+  margin: 0px 2.5%;
+  margin-left: 2.5% !important;
 }
 
 input[type=number]::-webkit-inner-spin-button,
@@ -284,7 +284,7 @@ nav ul a {
 }
 
 .features .col.l3 {
-  width: 23%;
+  width: 20%;
 }
 
 #f-one {
@@ -292,7 +292,7 @@ nav ul a {
     url(images/features/wallart.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100%;
+  height: 90%;
 }
 
 #f-two {
@@ -300,7 +300,7 @@ nav ul a {
     url(images/features/canvasart.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100%;
+  height: 90%;
 }
 
 #f-three {
@@ -308,7 +308,7 @@ nav ul a {
     url(images/features/sculpture.jpg);
   background-size: cover;
   background-position: center center;
-  height: 100%;
+  height: 90%;
 }
 
 #f-four {
@@ -316,7 +316,7 @@ nav ul a {
     url(images/features/illustration.png);
   background-size: cover;
   background-position: center center;
-  height: 100%;
+  height: 90%;
 }
 
 /* Blog section */
@@ -329,13 +329,17 @@ nav ul a {
 }
 
 #blog img {
-  height: 250px;
-  width: 350px;
+  height: 14em;
+  width: 19em;
   padding: 2%;
 }
 
+#blog .col {
+  padding: 0 1.75rem;
+}
+
 #blog-text {
-  margin: 2% 5%;
+  margin: 2% 6%;
   font-family: 'Josefin Sans';
 }
 
