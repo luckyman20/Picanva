@@ -254,9 +254,12 @@ nav ul a {
     margin: 35px;
     width: 80%;
   }
+
+  #about h6 {
+    text-align: center;
+  }
 }
 
-#about h6,
 #about h5 {
   margin-left: 10px;
 }
