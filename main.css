@@ -317,6 +317,10 @@ nav ul a {
 }
 
 /* Blog section */
+#blog .divider {
+  margin: 2% 0;
+}
+
 #blog h6 {
   margin-left: 10px;
 }
@@ -328,12 +332,40 @@ nav ul a {
 }
 
 #blog-text {
-  margin: 0 5%;
+  margin: 2% 5%;
   font-family: 'Josefin Sans';
 }
 
 #blog-text h5 {
   margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #blog {
+    text-align: center;
+  }
+
+  #blog img {
+    height: 250px;
+    width: 350px;
+  }
+
+  #blog-text {
+    font-family: 'Josefin Sans';
+  }
+
+  #contact h5 {
+    margin: 0 auto !important;
+  }
+
+  #contact form {
+    margin: 0 25px;
+  }
+}
+
+#contact h5 {
+  margin: 0 20px;
+  width: 70%;
 }
 
 /* News Section */
