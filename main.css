@@ -289,7 +289,7 @@ nav ul a {
 
 #f-one {
   background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
-    url(images/features/wallart.jpg);
+    url(images/features/wallart.jpeg);
   background-size: cover;
   background-position: center center;
   height: 90%;
@@ -297,7 +297,7 @@ nav ul a {
 
 #f-two {
   background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
-    url(images/features/canvasart.jpg);
+    url(images/features/canvasart.jpeg);
   background-size: cover;
   background-position: center center;
   height: 90%;
@@ -305,7 +305,7 @@ nav ul a {
 
 #f-three {
   background-image: linear-gradient(to right bottom, #000000c4, #000000c4),
-    url(images/features/sculpture.jpg);
+    url(images/features/sculpture.jpeg);
   background-size: cover;
   background-position: center center;
   height: 90%;
