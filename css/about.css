@@ -215,7 +215,7 @@ nav ul a {
 }
 
 #slide-one {
-  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(/images/slides/img1.png);
+  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(../images/slides/img1.png);
   background-size: cover;
   background-position: center center;
 }
