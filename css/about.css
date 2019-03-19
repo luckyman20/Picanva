@@ -235,3 +235,36 @@ nav ul a {
   color: white;
   margin: 10px 0;
 }
+
+/* One */
+
+#one img {
+  margin: 0;
+  width: 85%;
+}
+
+#one h2,
+#one h4 {
+  margin: 50px;
+}
+
+/* Two */
+
+#two img {
+  margin: 0;
+  width: 60%;
+}
+
+#two p {
+  margin: 40px;
+  width: 70%;
+  word-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  #about p {
+    margin: 35px;
+    width: 80%;
+  }
+
+}
