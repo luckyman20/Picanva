@@ -203,9 +203,10 @@ nav ul a {
   top: 35%;
 }
 
-#page-banner h4 {
+#page-banner h5 {
   position: relative;
-  top: 30%;
+  top: 35%;
+  color: #fff;
 }
 
 .carousel {
@@ -310,7 +311,29 @@ nav ul a {
   font-weight: 700;
 }
 
+#name-sm {
+  font-weight: 700;
+}
+
 #intro {
   width: 80%;
   margin-top: 10px !important;
+}
+
+.profile-pic {
+  margin: 10px 20px;
+}
+
+.profile-pic img {
+  width: 90px;
+}
+
+#pic-div {
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 768px) {
+  .profile-pic {
+    width: 90px;
+  }
 }
