@@ -337,3 +337,9 @@ nav ul a {
     width: 90px;
   }
 }
+
+/* Four */
+#four p {
+  font-family: 'Josefin Sans';
+  margin: 0;
+}
