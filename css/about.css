@@ -18,6 +18,10 @@ body {
   font-family: 'Josefin Sans';
 }
 
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
 .bree {
   font-family: 'Bree Serif';
 }
@@ -203,9 +207,10 @@ nav ul a {
   top: 35%;
 }
 
-#page-banner h5 {
+#page-banner p {
   position: relative;
-  top: 35%;
+  font-size: 18px;
+  top: 30%;
   color: #fff;
 }
 

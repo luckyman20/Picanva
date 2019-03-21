@@ -15,4 +15,4 @@ AOS.init({
 $('.carousel').carousel();
 setInterval(function () {
     $('.carousel').carousel('next');
-}, 5000);
+}, 7000);
