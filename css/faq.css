@@ -1,0 +1,43 @@
+#page-banner .row {
+    height: 100%;
+}
+
+#content {
+    padding: 100px;
+    height: 100%;
+}
+
+#content h4 {
+    top: 0;
+    letter-spacing: -3px;
+}
+
+#content h5 {
+    color: #4b3929;
+    letter-spacing: .0875em;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.collapsible-header {
+    background: transparent;
+}
+
+.collapsible {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+
+.ques-box p {
+    margin: 0;
+}
+
+.borderBottom {
+    border-bottom: 1px solid;
+}
+
+#content-nav {
+    height: 100%;
+}
