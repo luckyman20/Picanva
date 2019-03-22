@@ -1,5 +1,6 @@
 $(document).ready(function () {
 
+    $('.collapsible').collapsible();
     $('#serv-sel').on('click', function () {
         $('#sub-head').text('Services');
         $('#services').css("display", "block");
