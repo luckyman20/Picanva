@@ -348,3 +348,14 @@ nav ul a {
   font-family: 'Josefin Sans';
   margin: 0;
 }
+
+/* Five */
+#five {
+  height: 450px;
+  padding: 35px 80px;
+}
+
+#five p {
+  width: 50%;
+  font-size: 18px;
+}
