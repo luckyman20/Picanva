@@ -3,13 +3,16 @@
 }
 
 #content {
-    padding: 100px;
+    padding: 50px;
+    width: 70%;
     height: 100%;
+    overflow-y: visible;
 }
 
 #content h4 {
     top: 0;
     letter-spacing: -3px;
+    margin: 0;
 }
 
 #content h5 {
@@ -19,8 +22,14 @@
     margin-bottom: 10px;
 }
 
-.collapsible-header {
+.collapsible-header,
+.collapsible-body {
     background: transparent;
+    font-family: 'Josefin Sans';
+}
+
+.collapsible-header i {
+    right: 0;
 }
 
 .collapsible {
@@ -32,12 +41,39 @@
 
 .ques-box p {
     margin: 0;
+    width: 100%;
 }
 
 .borderBottom {
     border-bottom: 1px solid;
 }
 
-#content-nav {
+#faq-nav {
     height: 100%;
+    width: 30%;
+    padding: 50px;
+    border: none;
+}
+
+#faq-nav li {
+    font-size: 14px;
+    font-family: 'Josefin Sans';
+    height: 50px;
+    text-transform: uppercase;
+}
+
+#services {
+    display: block;
+}
+
+#del {
+    display: none;
+}
+
+#rtrn {
+    display: none;
+}
+
+#pay {
+    display: none;
 }
