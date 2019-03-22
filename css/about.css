@@ -351,11 +351,20 @@ nav ul a {
 
 /* Five */
 #five {
-  height: 450px;
   padding: 35px 80px;
 }
 
 #five p {
   width: 50%;
   font-size: 18px;
+}
+
+@media only screen and (max-width:768px) {
+  #five {
+    padding: 35px 10%;
+  }
+
+  #five p {
+    width: 90%
+  }
 }
