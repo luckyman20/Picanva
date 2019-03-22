@@ -15,7 +15,7 @@
 @media only screen and (max-width: 768px) {
     #content {
         width: 100%;
-
+        padding-top: 0;
     }
 
     #faq-nav {
@@ -27,6 +27,12 @@
     top: 0;
     letter-spacing: -3px;
     margin: 0;
+}
+
+h4.head {
+    letter-spacing: -3px;
+    margin: 10px;
+    text-align: center;
 }
 
 #content h5 {
@@ -79,6 +85,7 @@
 @media only screen and (max-width: 768px) {
     #faq-nav {
         width: 100%;
+        padding: 10px 50px;
     }
 }
 
