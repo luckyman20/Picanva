@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 
+.leckerli {
+    font-family: 'Leckerli One';
+}
+
 .banner-inner {
     background-image: linear-gradient(to right bottom, rgba(202, 202, 211, 0.5), rgba(17, 14, 216, 0.5)),
         url(../images/how/settings.png);
