@@ -35,3 +35,13 @@
 #one {
     height: 400px;
 }
+
+.parallax-img {
+    filter: blur(3px);
+}
+
+.parallax-head {
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+}

@@ -76,6 +76,11 @@ h5 {
   margin: 0;
 }
 
+#three .row {
+  margin-bottom: 0 !important;
+  padding-bottom: 40px;
+}
+
 @media only screen and (max-width: 768px) {
   .info {
     margin-left: auto !important;
@@ -110,11 +115,11 @@ h5 {
 }
 
 .profile-pic {
-  margin: 10px 20px;
+  margin: 10px 2em;
 }
 
 .profile-pic img {
-  width: 90px;
+  width: 100px;
 }
 
 #pic-div {
@@ -125,6 +130,14 @@ h5 {
   .profile-pic {
     width: 90px;
   }
+}
+
+.d-none {
+  display: none;
+}
+
+.d-block {
+  display: block;
 }
 
 /* Four */
