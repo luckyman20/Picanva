@@ -59,13 +59,13 @@ h5 {
 
 #two p {
   width: 70%;
-  word-wrap: wrap;
+  word-wrap: normal;
 }
 
 @media only screen and (max-width: 768px) {
-  #about p {
-    margin: 35px;
-    width: 80%;
+  #two p {
+    margin: 15px;
+    width: 90%;
   }
 
 }
@@ -128,7 +128,8 @@ h5 {
 
 @media only screen and (max-width: 768px) {
   .profile-pic {
-    width: 90px;
+    width: 80px;
+    margin: 10px 25px;
   }
 }
 
