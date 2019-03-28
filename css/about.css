@@ -9,6 +9,10 @@ h5 {
   font-weight: 700;
 }
 
+.border-grn {
+  border: 3px solid #2196f3;
+}
+
 #page-banner p {
   position: relative;
   font-size: 18px;
