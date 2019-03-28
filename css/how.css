@@ -33,15 +33,27 @@
 }
 
 #one {
-    height: 400px;
+    height: 500px;
+}
+
+.connect {
+    width: 250px;
 }
 
 .parallax-img {
-    filter: blur(3px);
+    filter: blur(4px);
 }
 
 .parallax-head {
     text-align: center;
     width: 100%;
+    line-height: 5rem;
     font-weight: 700;
+    font-size: 7em;
+}
+
+.section li {
+    margin: 25px 0;
+    width: 90%;
+    font-size: 18px;
 }
