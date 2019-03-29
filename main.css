@@ -227,9 +227,14 @@ nav ul a {
   background-size: cover;
   background-position: center center;
 }
+#slide-about {
+  background-image: linear-gradient(rgba(255, 192, 203, 0.603), rgba(255, 192, 203, 0.603)), url(images/slides/img1.png);
+  background-size: cover;
+  background-position: center center;
+}
 
 #slide-two {
-  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img2.png);
+  background-image: linear-gradient(rgba(227, 242, 253, 0.616), rgba(227, 242, 253, 0.596)), url(images/slides/img2.png);
   background-size: cover;
   background-position: center center;
 }
