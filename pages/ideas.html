@@ -2,21 +2,307 @@
 <html>
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ideas</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="../css/ideas.css">
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>P I C A N V A | Ideas</title>
+    <meta name="theme-color" content="#fff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="../css/hover.css">
+    <link rel="stylesheet" href="../css/ideas.css">
     <link rel="stylesheet" href="../main.css">
-    <script src="ideas.js"></script>
+    <link rel="shortcut icon" href="../images/favicon.png" type="image/x-icon" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+        integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+    <link
+        href="https://fonts.googleapis.com/css?family=Josefin+Sans|Open+Sans|Bree+Serif|Roboto+Slab|Comfortaa|Abril+Fatface|bree"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="../css/aos-master/dist/aos.css" />
 </head>
 
 <body>
-    <div id="pinterest" class="center frame-padding">
-        <a data-pin-do="embedUser" data-pin-board-width="700" data-pin-scale-height="340" data-pin-scale-width="80"
-            href="https://www.pinterest.com/picanvaorg/"></a>
+    <!-- Navigation -->
+    <div class="navbar-fixed">
+        <nav class="frame-padding z-depth-0 white black-text">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo center jos-sans">P I C A N V A</a>
+                <a href="#" data-target="slide-out" class="sidenav-trigger"><i
+                        class="material-icons black-text">menu</i></a>
+                <ul class="hide-on-med-and-down">
+                    <li><a class="hvr-underline-from-left" href="../index.html">HOME</a></li>
+                    <li><a class="hvr-underline-from-left" href="../pages/about.html">ABOUT</a></li>
+                </ul>
+                <ul class="hide-on-med-and-down right">
+                    <li><a class="hvr-underline-from-left" href="./how.html">HOW?</a></li>
+                    <li><a class="hvr-underline-from-left" href="../index.html#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
+
+    <!-- Sidebar Nav -->
+    <ul id="slide-out" class="sidenav">
+        <li>
+            <div class="section">
+                <h6 style="border: 1px solid #000; width:fit-content; padding:1%; margin: 0 auto;">picanva</h6>
+            </div>
+        </li>
+        <li><a href="../index.html">Home</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="../pages/about.html">About us</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="./how.html">How it works?</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <li><a href="../index.html#contact">Contact</a></li>
+        <li>
+            <div class="divider"></div>
+        </li>
+        <div style="position: fixed; bottom: 7%; width: 100%" class="section">
+            <div class="row" style="margin-bottom:0px;">
+                <div class="col s3 m3 center">
+                    <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                </div>
+                <div class="col s3 m3 center">
+                    <a href="https://www.instagram.com/picanva/" target="_blank" aria-label="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                <div class="col s3 m3 center">
+                    <a href="https://www.linkedin.com/company/picanva" target="_blank" aria-label="Follow on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+                <div class="col s3 m3 center">
+                    <a href="https://twitter.com/picanvaorg" target="_blank" aria-label="Follow on Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </ul>
+
+    <!-- Social Links -->
+    <div class="hide-on-med-and-down" id="page_share" style="opacity: 1;">
+        <div class="social-links">
+            <div class="inner">
+                <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="https://www.instagram.com/picanva/" target="_blank" aria-label="Follow on Instagram">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/company/picanva" target="_blank" aria-label="Follow on LinkedIn">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a href="https://twitter.com/picanvaorg" target="_blank" aria-label="Follow on Twitter">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <div id="main">
+        <!-- Main -->
+        <h6>IDEAS</h6>
+        <div id="board">
+            <div class="row center-align">
+                <!-- Column One -->
+                <div class="col l3 m6 s12">
+                    <img src="https://i.pinimg.com/564x/2f/82/c2/2f82c2ceee98e05a23df22220439e944.jpg" alt=""
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/7d/3c/05/7d3c059586288c9ac3bdfc3d9ffeca27.jpg" alt="two"
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/6c/fe/dd/6cfedd7650c2ac6c1ff60db93470fe08.jpg" alt="two"
+                        class="responsive-img card thumb">
+                </div>
+                <!-- Column Two -->
+                <div class="col l3 m6 s12">
+                    <img src="https://i.pinimg.com/564x/79/0e/ad/790ead2ce195f16eb7acfec08fc36e57.jpg" alt=""
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/c4/63/a3/c463a34d2cd831a0d9a77c4dee140158.jpg" alt="two"
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/48/57/14/485714e34d23e5a7e1d9f96851cbba15.jpg" alt="two"
+                        class="responsive-img card thumb">
+
+                </div>
+                <!-- Column Three -->
+                <div class="col l3 m6 s12">
+                    <img src="https://i.pinimg.com/564x/98/9b/6a/989b6a08c7bbfddf2445552f69ae7ae3.jpg" alt=""
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/c7/bf/b4/c7bfb4e295f9ed83daa4cdb1a9cc3129.jpg" alt="two"
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/2f/85/f8/2f85f87edaac13361babfd2d67a479e4.jpg" alt=""
+                        class="responsive-img thumb card">
+                </div>
+                <!-- Column Four -->
+                <div class="col l3 m6 s12">
+                    <img src="https://i.pinimg.com/564x/a3/a5/a1/a3a5a1d4cb3dba94293605d6138c1090.jpg" alt=""
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/15/b9/8b/15b98b3f74f59bf3f85d32cb30992cc8.jpg" alt="two"
+                        class="responsive-img card thumb">
+                    <br>
+                    <img src="https://i.pinimg.com/564x/42/7a/f0/427af02a7948c40acc9e33965ccc042c.jpg" alt=""
+                        class="responsive-img card thumb">
+                </div>
+            </div>
+        </div>
+        <div class="section"></div>
+        <a href="https://in.pinterest.com/picanvaorg/" target="_blank" rel="noopener noreferrer">
+            <div id="follow" class="card">
+                <h4 class="center jos-sans text">Follow us on <i class="fab fa-pinterest"></i> for more...</h4>
+            </div>
+        </a>
+        <div class="section"></div>
+        <div class="section"></div>
+    </div> <!-- Main block end-->
+
+    <!-- Footer -->
+    <div class="section black"></div>
+    <div class="section black"></div>
+    <div id="footer" class="valign-wrapper black">
+        <div class="row" style="width: 100%;">
+            <div class="col s12 m12 l3 center-align">
+                <a href="#">
+                    <h6>Home</h6>
+                </a>
+                <a href="./about.html">
+                    <h6>About</h6>
+                </a>
+                <a href="#">
+                    <h6>Career</h6>
+                </a>
+                <a href="../index.html#contact">
+                    <h6>Contact</h6>
+                </a>
+                <div class="divider hide-on-large-only grey darken-3"></div>
+            </div>
+            <div class="col s12 m12 l3 center-align container">
+                <a href="#">
+                    <h6>How it works?</h6>
+                </a>
+                <a href="#">
+                    <h6>Blog</h6>
+                </a>
+                <a href="../pages/faq.html">
+                    <h6>FAQ</h6>
+                </a>
+                <div class="divider hide-on-large-only grey darken-3"></div>
+            </div>
+            <div class="col s12 m12 l3 center-align">
+                <h6 style="margin-bottom:0;">Never miss an update</h6>
+                <form id="contactFrom" class="col s12">
+                    <div class="input-field col s12 m12 l12">
+                        <input id="sub" type="email" class="validate bree white-text" />
+                        <label class="bree" for="sub">Email</label>
+                    </div>
+                    <div class="center-align">
+                        <button class="btn waves-effect grey darken-3 waves-light bree" type="submit" name="action">
+                            Subscribe
+                            <i class="material-icons right">send</i>
+                        </button>
+                    </div>
+                </form>
+            </div>
+            <div class="col s12 m12 l3 center-align">
+                <div class="section hide-on-large-only">
+                    <div class="divider grey darken-3"></div>
+                </div>
+                <div class="f-social-links hide-on-med-and-down" style="margin: 15px;">
+                    <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <br>
+                    <a href="https://www.instagram.com/picanva/" target="_blank" aria-label="Follow on Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <br>
+                    <a href="https://www.linkedin.com/company/picanva" target="_blank" aria-label="Follow on LinkedIn">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <br>
+                    <a href="https://twitter.com/picanvaorg" target="_blank" aria-label="Follow on Twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </div>
+                <div class="f-social-links hide-on-large-only">
+                    <div class="row" style="margin-bottom:0px;">
+                        <div class="col s3 m3">
+                            <a href="https://www.facebook.com/picanva/" target="_blank" aria-label="Follow on Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                        </div>
+                        <div class="col s3 m3">
+                            <a href="https://www.instagram.com/picanva/" target="_blank"
+                                aria-label="Follow on Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="col s3 m3">
+                            <a href="https://www.linkedin.com/company/picanva" target="_blank"
+                                aria-label="Follow on LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                        <div class="col s3 m3">
+                            <a href="https://twitter.com/picanvaorg" target="_blank" aria-label="Follow on Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Copyright banner -->
+    <div class="hide-on-med-and-down">
+        <div class="divider grey darken-3"></div>
+        <div style="margin:0; padding: 10px 80px;" class="row black">
+            <div class="col s12 m12 l12">
+                <p class="jos-sans white-text">&copy; Copyright 2019 PICANVA &nbsp; | &nbsp; Sitemap | &nbsp;
+                    Privacy
+                    Policy
+                    |
+                    &nbsp;
+                    Terms of Use</p>
+            </div>
+        </div>
+    </div>
+    <div class="hide-on-large-only">
+        <div class="divider grey darken-3"></div>
+        <div style="margin:0; padding: 10px 10px;" class="row black">
+            <div class="col s12 m12 l12">
+                <p class="jos-sans white-text">&copy; Copyright 2019 PICANVA <br> Sitemap | &nbsp; Privacy Policy
+                    |
+                    &nbsp;
+                    Terms of Use</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="../css/aos-master/dist/aos.js"></script>
     <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+    <script src="../main.js"></script>
+    <script src="../js/ideas.js"></script>
 </body>
 
 </html>
