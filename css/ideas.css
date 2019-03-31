@@ -1,11 +1,22 @@
 /* Head */
-#main h6 {
+#main h4 {
     margin: 25px 0;
     letter-spacing: 5px;
     opacity: 0.8;
     width: 100%;
     text-align: center;
 
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active,
+.tabs .tab a {
+    background-color: transparent;
+    color: rgb(60, 207, 60);
+}
+
+.tabs .indicator {
+    background-color: rgb(60, 207, 60);
 }
 
 /* board */
