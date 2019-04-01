@@ -26,6 +26,15 @@
     margin: auto;
 }
 
+@media only screen and (max-width: 768px) {
+
+    .board,
+    #main ul {
+        width: 100%;
+        margin: auto;
+    }
+}
+
 .board .row {
     height: 100%;
 }
