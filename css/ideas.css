@@ -12,11 +12,11 @@
 .tabs .tab a.active,
 .tabs .tab a {
     background-color: transparent;
-    color: rgb(60, 207, 60);
+    color: #000;
 }
 
 .tabs .indicator {
-    background-color: rgb(60, 207, 60);
+    background-color: #000;
 }
 
 /* board */
