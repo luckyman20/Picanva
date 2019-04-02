@@ -51,6 +51,14 @@
     line-height: 27px;
 }
 
+.loc {
+    margin-bottom: 50px;
+}
+
+.list .divider {
+    margin-bottom: 30px;
+}
+
 .rate span {
     line-height: 27px;
 }
