@@ -1,0 +1,72 @@
+#page-banner {
+    height: 380px !important;
+}
+
+#page-banner h1 {
+    /* position: relative; */
+    top: 17% !important;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active,
+.tabs .tab a {
+    background-color: transparent;
+    color: #000;
+}
+
+.tabs .indicator {
+    background-color: #000;
+}
+
+/* board */
+.board,
+#main ul {
+    width: 95%;
+    margin: auto;
+}
+
+.list {
+    margin-top: 45px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .board,
+    #main ul {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+.artist {
+    margin-bottom: 35px;
+}
+
+.artist-img {
+    margin: 15px;
+    width: 275px;
+}
+
+.loc span {
+    line-height: 27px;
+}
+
+.rate span {
+    line-height: 27px;
+}
+
+.rate {
+    font-size: 18px !important;
+}
+
+.artist .btn {
+    margin-top: 5px;
+}
+
+.highlight {
+    line-height: 15px;
+}
+
+.btn-large {
+    line-height: 59px;
+}
