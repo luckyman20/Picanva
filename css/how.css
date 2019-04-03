@@ -1,5 +1,20 @@
 @import url('https://fonts.googleapis.com/css?family=Leckerli+One');
 
+/* Class for when element is above threshold */
+.pin-top {
+    position: relative;
+}
+
+/* Class for when element is below threshold */
+.pin-bottom {
+    position: relative;
+}
+
+/* Class for when element is pinned */
+.pinned {
+    position: fixed !important;
+}
+
 .leckerli {
     font-family: 'Leckerli One';
 }
@@ -33,7 +48,15 @@
 }
 
 #one {
-    height: 500px;
+    height: 100vh;
+}
+
+#two {
+    height: 100vh;
+}
+
+#three {
+    height: 100vh;
 }
 
 .connect {
@@ -44,16 +67,33 @@
     filter: blur(4px);
 }
 
-.parallax-head {
-    text-align: center;
+.head {
+    /* text-align: center; */
     width: 100%;
+    margin: 2rem 0 0rem 4rem;
     line-height: 5rem;
     font-weight: 700;
-    font-size: 7em;
+    font-size: 4rem;
+}
+
+.head span {
+    text-decoration: underline;
 }
 
 .section li {
     margin: 25px 0;
     width: 90%;
-    font-size: 18px;
+    font-size: 16px;
+}
+
+.pd-70 {
+    padding: 0 70px !important;
+}
+
+.section {
+    height: 100vh;
+}
+
+.row {
+    height: 100%;
 }
