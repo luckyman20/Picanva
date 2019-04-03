@@ -61,14 +61,15 @@
 
 .artist .btn,
 .artist .btn-large {
-    background-color: #000;
-    color: white;
+    background-color: white;
+    color: #000;
+    border: 1px solid;
 }
 
 .artist .btn:hover,
 .artist .btn-large:hover {
-    background-color: white;
-    color: #000;
+    background-color: #000;
+    color: white;
     transition: 0.5s;
 }
 
