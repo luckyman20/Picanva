@@ -383,6 +383,10 @@ nav ul a {
   font-family: 'Josefin Sans';
 }
 
+#blog h6 {
+  margin-left: 10px;
+}
+
 .blog-title {
   white-space: nowrap;
   overflow: hidden;
