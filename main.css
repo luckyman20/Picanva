@@ -339,6 +339,24 @@ nav ul a {
   height: 90%;
 }
 
+.artist .btn {
+  margin-top: 30px;
+}
+
+.artist .btn,
+.artist .btn-large {
+  background-color: white;
+  color: #000;
+  border: 1px solid;
+}
+
+.artist .btn:hover,
+.artist .btn-large:hover {
+  background-color: #000;
+  color: white;
+  transition: 0.5s;
+}
+
 /* Blog section */
 #blog .divider {
   margin: 2% 0;
