@@ -21,6 +21,13 @@ body {
 .lato {
   font-family: 'Lato', sans-serif;
 }
+.poppins{
+font-family: 'Poppins', sans-serif;
+}
+
+.merriweather{
+  font-family: 'Merriweather Sans', sans-serif;
+}
 
 .bree {
   font-family: 'Bree Serif';
@@ -229,31 +236,31 @@ nav ul a {
 }
 
 #slide-one {
-  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img1.png);
+  background-image: linear-gradient(#ca7e8da2, #ca7e8da6), url(images/slides/img1.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-about {
-  background-image: linear-gradient(rgba(255, 192, 203, 0.603), rgba(255, 192, 203, 0.603)), url(images/slides/img1.png);
+  background-image: linear-gradient(#e6b6558f, #e6b6558c), url(images/slides/img1.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-two {
-  background-image: linear-gradient(rgba(227, 242, 253, 0.616), rgba(227, 242, 253, 0.596)), url(images/slides/img2.png);
+  background-image: linear-gradient(#9ff2f38a, #9ff2f37c), url(images/slides/img2.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-three {
-  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img3.png);
+  background-image: linear-gradient(#d2a3a9, #1b27afb7), url(images/slides/img3.png);
   background-size: cover;
   background-position: center center;
 }
 
 #slide-four {
-  background-image: linear-gradient(#1b27afb7, #1b27afb7), url(images/slides/img4.png);
+  background-image: linear-gradient(#e6b6558f, #e6b6558c), url(images/slides/img4.png);
   background-size: cover;
   background-position: center center;
 }
