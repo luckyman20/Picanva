@@ -1,5 +1,6 @@
 $(document).ready(function () {
-    $('#team1').hover(function () {
+    var event = ('ontouchstart' in window) ? 'click' : 'mouseenter mouseleave';
+    $('#team1').on(event, function () {
         $('#team1 img').addClass('z-depth-5 border-grn');
         $('#team2 img').removeClass('z-depth-5 border-grn');
         $('#team3 img').removeClass('z-depth-5 border-grn');
@@ -11,7 +12,7 @@ $(document).ready(function () {
         $('#team-3').removeClass('d-block');
     });
 
-    $('#team2').hover(function () {
+    $('#team2').on(event, function () {
         $('#team2 img').addClass('z-depth-5 border-grn');
         $('#team1 img').removeClass('z-depth-5 border-grn');
         $('#team3 img').removeClass('z-depth-5 border-grn');
@@ -22,7 +23,7 @@ $(document).ready(function () {
         $('#team-3').addClass('d-none');
         $('#team-3').removeClass('d-block');
     });
-    $('#team3').hover(function () {
+    $('#team3').on(event, function () {
         $('#team3 img').addClass('z-depth-5 border-grn');
         $('#team2 img').removeClass('z-depth-5 border-grn');
         $('#team1 img').removeClass('z-depth-5 border-grn');
